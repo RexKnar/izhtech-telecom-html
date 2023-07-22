@@ -473,7 +473,10 @@ input[type=search]::-webkit-search-results-decoration {
 .border-effect span.border-effect:hover {
   background-size: 100% 2px;
 }
-
+.awards img:hover {
+  scale: 1.5;
+  transition: scale 2s;
+}
 span.border-effect {
   position: relative;
   display: inline;
@@ -3128,6 +3131,13 @@ h6 {
   display: inline-block;
 }
 
+.marked-list{
+        list-style-type: none;
+}
+.sotcox-team-item div {
+    display:flex;
+    justify-content:center;
+}
 /* SOCIAL LINKS CSS END */
 /* OWL NAV CSS START */
 @media (max-width: 1199px) {
@@ -3775,6 +3785,7 @@ h6 {
   transform: rotateY(180deg);
 }
 .sotcox-service-item__style-2 {
+        background-color: aliceblue;
   padding: 0px;
   padding-bottom: 25px;
   padding-left: 40px;
@@ -3786,8 +3797,8 @@ h6 {
 }
 .sotcox-service-item__style-2 .icon {
   background: #4ddfbe;
-  width: 85px;
-  height: 85px;
+  width: 89px;
+  height: 48px;
   border-radius: 10px;
   display: -ms-flexbox;
   display: flex;
@@ -3813,7 +3824,7 @@ h6 {
 }
 .sotcox-service-item__style-2 .title a {
   color: #1B2E59;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .sotcox-service-section-page .sotcox-service-item {
@@ -4841,6 +4852,7 @@ h6 {
 }
 @media (max-width: 991px) {
   .sotcox-achivement-boxs {
+      justify-content: center;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -4960,7 +4972,7 @@ h6 {
 
 .sotcox-team-item {
   box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.04);
-  padding: 40px;
+  padding: 10px;
   border-radius: 10px;
 }
 .sotcox-team-item .thumb {
@@ -7096,7 +7108,7 @@ blockquote code {
 @media (max-width: 1199px) {
   .about-content-wrapper {
     padding-left: 0px;
-    padding-top: 80px;
+    padding-top: 25px;
   }
 }
 
