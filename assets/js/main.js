@@ -151,7 +151,7 @@
 		autoplay:true,
 		rtl:true,
     autoplayTimeout:1000,
-    autoplayHoverPause:false,
+    autoplayHoverPause:true,
 		navText: [
 			"<i class='far fa-arrow-left'></i>",
 			"<i class='far fa-arrow-right'></i>",
@@ -166,10 +166,10 @@
 				items: 2,
 			},
 			992: {
-				items: 3,
+				items: 4,
 			},
 			1440: {
-				items: 4,
+				items: 5,
 			},
 		},
 	});
@@ -188,7 +188,7 @@
 		autoplay:true,
 		ltr:true,
     autoplayTimeout:1000,
-    autoplayHoverPause:false,
+    autoplayHoverPause:true,
 		navText: [
 			"<i class='far fa-arrow-left'></i>",
 			"<i class='far fa-arrow-right'></i>",
