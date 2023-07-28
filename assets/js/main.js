@@ -10,6 +10,7 @@
 		slideSpeed: 3000,
 		nav: true,
 		dots: false,
+
 		navText: [
 			"<i class='far fa-arrow-left'></i>",
 			"<i class='far fa-arrow-right'></i>",
@@ -31,6 +32,7 @@
 			},
 		},
 	});
+	
 
 	// Testimonia slider active
 	var sotcoxTestimonial = $("[data-testimonial-slider]");
@@ -138,7 +140,7 @@
 	});
 
 	// team slider active
-	var teamSlider = $("[data-team-slider]");
+	var teamSlider = $("[data-client-slider]");
 	teamSlider.owlCarousel({
 		loop: true,
 		margin: 30,
@@ -146,6 +148,10 @@
 		slideSpeed: 3000,
 		nav: true,
 		dots: false,
+		autoplay:true,
+		rtl:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
 		navText: [
 			"<i class='far fa-arrow-left'></i>",
 			"<i class='far fa-arrow-right'></i>",
@@ -160,14 +166,50 @@
 				items: 2,
 			},
 			992: {
-				items: 3,
+				items: 4,
 			},
 			1440: {
-				items: 4,
+				items: 5,
 			},
 		},
 	});
 
+
+
+	// team slider active
+	var teamSlider = $("[data-partner-slider]");
+	teamSlider.owlCarousel({
+		loop: true,
+		margin: 30,
+		loop: true,
+		slideSpeed: 3000,
+		nav: true,
+		dots: false,
+		autoplay:true,
+		ltr:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+		navText: [
+			"<i class='far fa-arrow-left'></i>",
+			"<i class='far fa-arrow-right'></i>",
+		],
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1,
+				margin: 0,
+			},
+			576: {
+				items: 3,
+			},
+			992: {
+				items: 4,
+			},
+			1440: {
+				items: 5,
+			},
+		},
+	});
 	// post slider active js
 	var postGallery = $("[data-sotcox-post-gallery]");
 	postGallery.owlCarousel({
