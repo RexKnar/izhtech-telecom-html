@@ -5178,8 +5178,11 @@ h6 {
     padding: 120px 0;
   }
 }
-
 .breadcrumb-area {
+  position: relative;
+}
+
+.service-page.breadcrumb-area {
   z-index: -1;
   top: 0;
   position: absolute;
