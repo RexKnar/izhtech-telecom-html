@@ -55,26 +55,27 @@
     <!--====== HEADER END ======-->
 
     <!--====== HEADER START ======-->
-    <header
-      class="sotcox-header pt-50 pb-50"
-      data-uk-sticky="top: 250; animation: uk-animation-slide-top;"
-    >
+    <header class="sotcox-header pt-50 pb-50 uk-sticky" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
       <div class="container-fluid sotcox-container__fluid">
         <div class="row">
           <div class="col-xl-10 col-lg-4 col-sm-6 col-7 align-self-center">
             <div class="sotcox-logo-menu-wrapper">
               <a href="./index - 1.html" class="sotcox-logo">
-                <img src="assets/img/logo/logo.png" alt="LOGO" />
+                <img src="assets/img/logo/logo.png" alt="LOGO">
               </a>
               <div class="sotcox-menu-wrapper">
                 <div class="sotcox-main-menu">
-                  <nav id="sotcox-navbar" style="display: inline-block">
+                  <nav id="sotcox-navbar" style="display: inline-block;">
                     <ul>
                       <li><a href="./index - 1.html">Home</a></li>
                       <li><a href="./about.html">About Us</a></li>
-                      <li><a href="./services.html">Services</a></li>
-                      <li><a href="./portfolio.html">Gallery</a></li>
-                      <li><a href="./pricing.html">Project</a></li>
+                      <li class="menu-item-has-children">
+                        <a href="./services.html">Services</a>
+                        <ul class="sub-menu">
+                          <li><a href="./service-details.html">Service-Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="./project.html">Project</a></li>
                       <li><a href="./contact.html">Contact</a></li>
                     </ul>
                   </nav>
@@ -85,7 +86,7 @@
           <div class="col-xl-2 col-lg-8 col-sm-6 col-5 align-self-center">
             <div class="right-element">
               <ul class="list-unstyled d-flex align-items-center">
-                <li class="sideinfo-trigger" data-sideinfo-trigger>
+                <li class="sideinfo-trigger" data-sideinfo-trigger="">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -1118,59 +1119,55 @@
     <!--====== SERVICE SECTION END ======-->
 
     <!--====== FOOTER START ======-->
-    <footer class="sotcox-footer theme-light-bg pt-95">
+    <footer class="sotcox-footer pt-25" style="background-color: #1d2636;">
       <div class="sotcox-footer-widgets">
         <div class="container">
           <div class="row mt-none-30">
-            <div
-              class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sotcox-custom-col mt-30"
-            >
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sotcox-custom-col mt-75">
               <div class="widget">
                 <div class="about-widget">
-                  <a href="index-2.html" class="sotcox-footer-logo mb-35">
+                  <a href="index - 1.html" class="sotcox-footer-logo mb-35">
                     <img src="assets/img/logo/logo.png" alt="" />
                   </a>
-                  <p>
-                    <i class="far fa-map-marker-alt"></i> 1791 Yorkshire Circle
-                    Kitty
+                  <p class="text-light">
+                    <i class="far fa-map-marker-alt"></i> We Network LLC, first floor,
+                    0401-Z-319-KOM-4, Knowledge Oasis
+                    Muscat, Sultanate of Oman. Integrated Communication Services LLC, PO BOX:
+                    3360,Postal Code:111,Al
+                    Amabilah, Sultanate of Oman
                   </p>
-                  <p><i class="far fa-envelope"></i> Sotcoxinfo@gmail.com</p>
-                  <div class="sotcox-social-links mt-60">
-                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                    <a href="#0"><i class="fab fa-instagram"></i></a>
-                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                  <p class="text-light"><i class="far fa-envelope"></i> info@wenetworkllc.com</p>
+                  <div class="sotcox-social-links mt-40">
+                    <a class="text-light" href="#0"><i class="fab fa-facebook-f"></i></a>
+                    <a class="text-light" href="#0"><i class="fab fa-twitter"></i></a>
+                    <a class="text-light" href="#0"><i class="fab fa-instagram"></i></a>
+                    <a class="text-light" href="#0"><i class="fab fa-linkedin-in"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div
-              class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sotcox-custom-col mt-30"
-            >
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 sotcox-custom-col mt-75">
               <div class="widget">
-                <h3 class="widget-title">Services</h3>
+                <h3 class="widget-title text-light mt-5">Services</h3>
                 <ul>
-                  <li><a href="service-details.html">Data Analytics</a></li>
+                  <li><a class="text-light" href="service-details.html">Telecom Tower &Design</a></li>
                   <li>
-                    <a href="service-details.html">Product Engineering</a>
+                    <a class="text-light" href="service-details.html">Enterprise ICT/ELV Solutions
+                      Optimization</a>
                   </li>
-                  <li><a href="service-details.html">IT Management</a></li>
-                  <li><a href="service-details.html">Cyber Security</a></li>
-                  <li><a href="service-details.html">Machine Learning</a></li>
+                  <li><a class="text-light" href="service-details.html">Oil & Gas Design</a></li>
+                  <li><a class="text-light" href="service-details.html">MEP Solutions</a></li>
                 </ul>
               </div>
             </div>
-            <div
-              class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sotcox-custom-col mt-30"
-            >
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 sotcox-custom-col mt-75">
               <div class="widget">
-                <h3 class="widget-title">Information</h3>
+                <h3 class="widget-title text-light mt-5">Information</h3>
                 <ul>
-                  <li><a href="about.html">Career</a></li>
-                  <li><a href="about.html">Refund</a></li>
-                  <li><a href="about.html">Terms</a></li>
-                  <li><a href="about.html">Privacy Policy</a></li>
-                  <li><a href="about.html">Awards & Partners</a></li>
+                  <li><a class="text-light" href="about.html">Home</a></li>
+                  <li><a class="text-light" href="about.html">About</a></li>
+                  <li><a class="text-light" href="about.html">Services</a></li>
+                  <li><a class="text-light" href="about.html">Contact us</a></li>
                 </ul>
               </div>
             </div>
@@ -1181,15 +1178,15 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8">
-              <p>
-                Copyright &copy; <span id="copyright-date"></span> Sotcox, All
+              <p class="text-light">
+                Copyright &copy; <span class="text-light" id="copyright-date"></span> WE Network LLC, All
                 Rights Reserved.
               </p>
             </div>
             <div class="col-md-4">
               <div class="sotcox-backtotop">
-                <button data-sotcox-backtotop>
-                  <i class="far fa-angle-up"></i> Go On Top
+                <button data-sotcox-backtotop class="text-light">
+                  <i class="far fa-angle-up text-light"></i> Go On Top
                 </button>
               </div>
             </div>
