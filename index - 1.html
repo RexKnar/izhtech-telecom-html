@@ -62,9 +62,13 @@
                   <ul>
                     <li><a href="./index - 1.html">Home</a></li>
                     <li><a href="./about.html">About Us</a></li>
-                    <li><a href="./services.html">Services</a></li>
-                    <li><a href="./portfolio.html">Gallery</a></li>
-                    <li><a href="./index - 1.html">Project</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="./services.html">Services</a>
+                      <ul class="sub-menu">
+                        <li><a href="./service-details.html">Service-Details</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="./project.html">Project</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                   </ul>
                 </nav>
@@ -231,7 +235,7 @@
             <h1 class="title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">Partner Success. It’s what
               we do.</h1>
             <div class="inner-btns mt-50">
-              <a href="services.html" class="sotcox-btn wow fadeInUp" data-wow-delay="500ms"
+              <a href="./services.html" class="sotcox-btn wow fadeInUp" data-wow-delay="500ms"
                 data-wow-duration="800ms">Our Service <span></span></a>
               <div class="sotcox-video-wrapper wow fadeInUp" data-wow-delay="700ms" data-wow-duration="800ms">
               </div>
@@ -285,7 +289,7 @@
   <!--====== HERO SECTION END ======-->
 
   <!-- OUR SERVICES START -->
-  <div class="sotcox-workflow-section pt-50 theme-light-bg">
+  <div class="sotcox-workflow-section pt-50 theme-light-bg wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-10">
@@ -391,7 +395,7 @@
   <!-- OUR SERVICES END -->
 
   <!--====== About Us START ======-->
-  <div class="sotcox-about-section fadeInUp pt-50 pb-50">
+  <div class="sotcox-about-section wow fadeInUp pt-50 pb-50" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row">
         <div class="col-xl-6">
@@ -445,7 +449,7 @@
   <!--====== About Us END ======-->
 
   <!--====== why  Choose START ======-->
-  <div class="sotcox-service-section theme-light-bg pt-50 pb-50">
+  <div class="sotcox-service-section theme-light-bg pt-50 pb-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-10">
@@ -550,8 +554,9 @@
     </div>
   </div>
   <!--====== Why choose END ======-->
+
   <!--====== ACHIVEMENT SECTION START ======-->
-  <div class="sotcox-achivement-section pt-50 pb-50">
+  <div class="sotcox-achivement-section pt-50 pb-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row">
         <div class="col-xl-4 col-lg-10 col-md-12 align-self-center">
@@ -624,7 +629,7 @@
                   <span class="odometer" data-count="85">00</span>
                   <span class="sign">+</span>
                 </h2>
-                <p>Satisfied Clients</p>
+                <p>Happy Clients</p>
               </div>
               <!-- <div class="shape"><img src="assets/img/shapes/achivement-shape.png" alt=""></div> -->
             </div>
@@ -649,7 +654,7 @@
                   <span class="odometer" data-count="200">00</span>
                   <span class="sign">+</span>
                 </h2>
-                <p>Team Membe</p>
+                <p>Team Members</p>
               </div>
             </div>
             <!-- <div class="box-item box-item__style-2">
@@ -673,7 +678,7 @@
   <!--====== ACHIVEMENT SECTION END ======-->
 
   <!-- OUR CLIENTS START -->
-  <section class="sotcox-team-section theme-light-bg fix pt-50 pb-50">
+  <section class="sotcox-team-section theme-light-bg fix pt-50 pb-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6">
@@ -754,7 +759,7 @@
   <!-- OUR CLIENTS END -->
 
   <!-- OUR PARTNERS START-->
-  <section class="sotcox-team-section theme-light-bg fix pt-50 pb-50">
+  <section class="sotcox-team-section theme-light-bg fix pt-50 pb-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6">
@@ -816,90 +821,99 @@
   <!-- OUR PARTNERS END -->
 
   <!--====== PROJECT SECTION START ======-->
-  <!-- <div class="sotcox-project-section  sotcox-project-section__style-2 pt-50 pb-50">
+  <div class="sotcox-project-section  sotcox-project-section__style-2 pt-50 pb-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row mt-20">
         <div class="col-xl-12 text-center">
           <h1 class="headingour">Projects</h1>
         </div>
-        <div class="col-xl-12 col-lg-12">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6 mt-30 project-card">
-              <div class="stocox-support-box wow fadeInUp" data-wow-delay="00ms" data-wow-duration="800ms">
-                <div class="icon">
+        <div class="tab-content mt-50" id="pricing-tabContent">
+          <div class="tab-pane sotcox-pricing-wrapper fade active show" id="pricing-tab-1" role="tabpanel"
+            aria-labelledby="pricing-tab-1-tab">
+            <div class="sotcox-pricing-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
+              <div class="row g-0">
+                <div class="col-lg-3 align-self-center position-relative">
+                  <h2 class="title">DRIVE TEST SERVICES</h2>
+                  <span class="shape"></span>
+                </div>
+                <div class="col-lg-6 align-self-center position-relative pl-100">
+                  <ul class="list-unstyled">
+                    <li>2021 - ONGOING</li>
+                    <li>Country: Oman</li>
+                    <li>Account: Motorola</li>
+                    <li>Operator: ROP</li>
+                    <div class="text-blue">Supply of resource with dedicated car and tools for
+                      drive test for ROP
+                    </div>
+                  </ul>
+                  <span class="shape"></span>
+                </div>
+                <div class="col-lg-3 align-self-center text-center">
                   <img src="assets/img/clients/c4.png" alt="">
                 </div>
-                <div class="content mt-25 text-start">
-                  <h4 class="title">ROP ETISALAT PROJECT</h4>
-                  <ul class="marked-list">
-                    <li> <b>Country : Oman</b>
-                    </li>
-                    <li> <b>Account : Motorola</b>
-                    </li>
-                    <li> <b>Operator : ROP</b>
-                    </li>
-                    <li> <b>ROP ETISALAT PROJECT for motorola
-                      </b></li><b>
-                    </b>
+              </div>
+            </div>
+
+            <div class="sotcox-pricing-box active wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
+              <div class="row g-0">
+                <div class="col-lg-3 align-self-center position-relative">
+                  <div class="text-center"> <img src="assets/img/clients/c15.png"></div>
+                  <span class="shape"></span>
+                </div>
+                <div class="col-lg-6 align-self-center position-relative pl-100">
+                  <ul class="list-unstyled">
+
+                    <li>2014 - ONGOING</li>
+                    <li>Country: Oman</li>
+                    <li>Main Contractor: Ericsson</li>
+                    <li>End Customer: Omantel</li>
+                    <div class="text-white">Includes site survey/Engineering, installation of MW
+                      indoor and outdoor
+                      unit, LOS verification, Testing commissioning and integration of MW
+                      indoor
+                      and outdoor system.</div>
+
                   </ul>
+                  <span class="shape"></span>
+                </div>
+                <div class="col-lg-3 align-self-center text-center">
+                  <h2 class="title">ERICSSON MW SERVICE</h2>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 mt-30 project-card">
-              <div class="stocox-support-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
-                <div class="icon">
-                  <img src="assets/img/clients/c5.jpg" alt="">
+
+            <div class="sotcox-pricing-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
+              <div class="row g-0">
+                <div class="col-lg-3 align-self-center position-relative">
+                  <h2 class="title">ROP ETISALAT PROJECT</h2>
+                  <span class="shape"></span>
                 </div>
-                <div class="content mt-25">
-                  <h4 class="title text-start ms-2">Supply of EXFO OLTS Test Unit</h4>
-                  <ul class="marked-list">
-                    <li> <b>Country : Oman</b>
-                    </li>
-                    <li> <b>Account : PDO</b>
-                    </li>
-                    <li> <b>Operator : PDO</b>
-                    </li>
-                    <li> <b>Supply of EXFO OLTS Test Unit for PDO
-                      </b></li><b>
-                    </b>
+                <div class="col-lg-6 align-self-center position-relative pl-100">
+                  <ul class="list-unstyled">
+                    <li>2019-ONGOING</li>
+                    <li>Country: Oman</li>
+                    <li>Account: Motorola</li>
+                    <li>Operator: ROP</li>
+                    <div class="text-blue">ROP ETISALAT PROJECTfor Motorola</div>
                   </ul>
+                  <span class="shape"></span>
+                </div>
+                <div class="col-lg-3 align-self-center text-center">
+                  <img src="assets/img/clients/c4.png" alt="">
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 mt-30 project-card">
-              <div class="stocox-support-box wow fadeInUp" data-wow-delay="400ms" data-wow-duration="800ms">
-                <div class="icon">
-                  <img src="assets/img/clients/c2.png" alt="">
-                </div>
-                <div class="content mt-25 text-start">
-                  <h4 class="title">Supply of OSP/FOC</h4>
-                  <ul class="marked-list">
-                    <li> <b>Country : Oman</b>
-                    </li>
-                    <li> <b>Account : Ooredoo</b>
-                    </li>
-                    <li> <b>Operator : Ooredoo</b>
-                    </li>
-                    <li> <b>Supply of OSP and FOC for Ooredoo projects
-                      </b></li><b>
-                    </b>
-                  </ul><br>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 d-flex"><a href="./about.html"
-                class="sotcox-btn mt-35 has-span mx-auto pt-10 justify-content-center">Show More <span
-                  style="top: 40.625px; left: 263px;"></span></a></div>
+
           </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
   <!--====== PROJECT SECTION END ======-->
 
   <!-- AWARDS START -->
 
-  <div class="sotcox-project-section theme-light-bg pt-50 pb-50 award awards">
+  <div class="sotcox-project-section theme-light-bg pt-50 pb-50 award awards wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row">
         <div class="col-xl-8">
@@ -949,7 +963,7 @@
   <!-- AWARD END -->
 
   <!--====== BRAND SECTION START ======-->
-  <div class="sotcox-brand-section pt-50 pb-50">
+  <div class="sotcox-brand-section pt-50 pb-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6">
@@ -1000,7 +1014,7 @@
   <!--====== BRAND SECTION END ======-->
 
   <!--====== FOOTER START ======-->
-  <footer class="sotcox-footer pt-25" style="background-color: #1d2636;">
+  <footer class="sotcox-footer pt-25 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms" style="background-color: #1d2636;">
     <div class="sotcox-footer-widgets">
       <div class="container">
         <div class="row mt-none-30">
