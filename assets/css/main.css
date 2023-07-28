@@ -473,10 +473,7 @@ input[type=search]::-webkit-search-results-decoration {
 .border-effect span.border-effect:hover {
   background-size: 100% 2px;
 }
-.awards img:hover {
-  scale: 1.5;
-  transition: scale 2s;
-}
+
 span.border-effect {
   position: relative;
   display: inline;
