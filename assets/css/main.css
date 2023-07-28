@@ -424,7 +424,12 @@ input[type=search]::-webkit-search-results-decoration {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+<<<<<<< HEAD
   height: 300px !important;
+=======
+  height: 100%;
+  
+>>>>>>> a0c491c27b01a1c66a7d67c4ea2c5492c5a0a2fc
 }
 
 .dark-bg {
@@ -474,10 +479,7 @@ input[type=search]::-webkit-search-results-decoration {
 .border-effect span.border-effect:hover {
   background-size: 100% 2px;
 }
-.awards img:hover {
-  scale: 1.5;
-  transition: scale 2s;
-}
+
 span.border-effect {
   position: relative;
   display: inline;
@@ -689,7 +691,7 @@ span.border-effect:hover {
 }
 
 .mt-none-30 {
-  margin-top: -30px;
+  margin-top: 102px;
 }
 
 .mt-none-35 {
@@ -3339,7 +3341,7 @@ h6 {
   color: #0077b5;
 }
 .sotcox-hero-section .inner-right {
-  background: #e3ebf8;
+  /* background: #e3ebf8; */
   position: relative;
   border-radius: 30px;
   width: 520px;
