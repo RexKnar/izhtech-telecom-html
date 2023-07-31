@@ -424,12 +424,7 @@ input[type=search]::-webkit-search-results-decoration {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-<<<<<<< HEAD
-  height: 300px !important;
-=======
   height: 100%;
-  
->>>>>>> a0c491c27b01a1c66a7d67c4ea2c5492c5a0a2fc
 }
 
 .dark-bg {
@@ -7674,4 +7669,3 @@ blockquote code {
 
 /* FOOTER CSS END */
 
-/*# sourceMappingURL=main.css.map */
