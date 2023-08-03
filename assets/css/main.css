@@ -592,7 +592,7 @@ span.border-effect:hover {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #4ddfbe;
+  background: #4be084;
   margin: 0px 2.5px;
   display: inline-block;
 }
@@ -605,7 +605,7 @@ span.border-effect:hover {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #4ddfbe;
+  color: #4be084;
   letter-spacing: 0.02em;
   display: inline-block;
   position: relative;
@@ -2251,7 +2251,7 @@ h6 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #78f0c3;
+  background: #4be084;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -2350,7 +2350,7 @@ h6 {
   height: 100%;
   width: 9px;
   height: 9px;
-  background: #78f0c3;
+  background: #4be084;
   bottom: 20px;
   left: -15px;
   border-radius: 50%;
@@ -2362,13 +2362,13 @@ h6 {
   opacity: 0.3;
 }
 .sotcox-main-menu ul li:hover > a {
-  color: #78f0c3;
+  color: #4be084;
 }
 .sotcox-main-menu ul li:hover > a::before {
   opacity: 1;
 }
 .sotcox-main-menu ul li:hover a {
-  color: #78f0c3;
+  color: #4be084;
 }
 .sotcox-main-menu ul li:hover > .sub-menu {
   visibility: visible;
@@ -2497,7 +2497,7 @@ h6 {
 .sotcox-spinner > div {
   width: 18px;
   height: 18px;
-  background: #4ddfbe;
+  background: #4be084;
   -webkit-border-radius: 100%;
   -khtml-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -2527,7 +2527,7 @@ h6 {
   font-weight: 700;
   border-radius: 5px;
   display: inline-block;
-  background: #4ddfbe;
+  background: #266ff0;
   letter-spacing: 0.1em;
   position: relative;
   -webkit-transition: 0.4s linear;
@@ -2558,7 +2558,7 @@ h6 {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #78f0c3;
+  background-color: #4be084;
   transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -3618,7 +3618,7 @@ h6 {
   color: #818181;
 }
 .review-wrapper .item .content p i {
-  color: #febb43;
+  color: #4be084;
 }
 .review-wrapper .item .content p span {
   color: #1B2E59;
@@ -3716,10 +3716,10 @@ h6 {
   opacity: 0.3;
 }
 .sotcox-card-box__2 .sotcox-dots span {
-  background: #78f0c3;
+  background: #4be084;
 }
 .sotcox-card-box__3 .sotcox-dots span {
-  background: #FEBB43;
+  background: #4be084;
 }
 
 /* CARD CSS END */
@@ -3923,13 +3923,13 @@ h6 {
   }
 }
 .sotcox-workflow-box .sotcox-dots span:first-child {
-  background: #78f0c3;
+  background: #4be084;
 }
 .sotcox-workflow-box__1.active .count {
-  background: #78f0c3;
+  background: #09c3ff;
 }
 .sotcox-workflow-box__2.active .count {
-  background: #4ddfbe;
+  background: #266ff2;
 }
 .sotcox-workflow-box__3.active .count {
   background: #fdc330;
@@ -4943,7 +4943,7 @@ h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #4ddfbe;
+  background: #4be084;
   border-radius: 50%;
 }
 .sotcox-achivement-boxs .box-item.active .title span {
@@ -5175,11 +5175,12 @@ h6 {
     padding: 120px 0;
   }
 }
+
 .breadcrumb-area {
   position: relative;
 }
 
-.service-page.breadcrumb-area {
+.services .breadcrumb-area {
   z-index: -1;
   top: 0;
   position: absolute;
@@ -5577,7 +5578,7 @@ h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #78f0c3;
+  background: #266ff0;
   height: 40px;
   border-radius: 40px;
   width: 3px;
@@ -5620,7 +5621,7 @@ h6 {
   color: #727885;
 }
 .sotcox-pricing-box.active {
-  background: #4ddfbe;
+  background: #4be084;
 }
 .sotcox-pricing-box.active .title {
   color: #ffffff;
@@ -7551,7 +7552,7 @@ blockquote code {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #78f0c3;
+  background: #4be084;
   top: 50%;
   translate: 0 -50%;
   -webkit-transition: 0.4s;
@@ -7562,7 +7563,7 @@ blockquote code {
   background: #4ddfbe;
 }
 .sotcox-footer-widgets .about-widget p i {
-  color: #4ddfbe;
+  color: #4be084;
   margin-right: 5px;
 }
 .sotcox-footer-widgets .about-widget p:not(:last-child) {
