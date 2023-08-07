@@ -212,7 +212,7 @@
     <!--====== SIDE INFO FOR DESKTOP END ======-->
 
     <!--====== BREADCRUMB SECTION START ======-->
-    <section class="breadcrumb-area fix bg_img">
+    <section class="breadcrumb-area fix bg_img wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -228,61 +228,13 @@
     </section>
     <!--====== BREADCRUMB SECTION END ======-->
 
-    <!--====== SUPPORT SECTION START ======-->
-    <div class="stocox-support-secttion pb-90">
-        <div class="container">
-            <div class="row mt-none-30">
-                <div class="col-lg-4 col-md-6 mt-30">
-                    <div class="stocox-support-box wow fadeInUp" data-wow-delay="00ms" data-wow-duration="800ms">
-                        <div class="icon">
-                            <img src="assets/img/icons/support-1.png" alt="">
-                        </div>
-                        <div class="content mt-25">
-                            <h4 class="title">Visit Us Daily</h4>
-                            <p>We Network LLC, first floor, 0401-Z-319-KOM-4, Knowledge Oasis
-                                Muscat, Sultanate of Oman.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-30">
-                    <div class="stocox-support-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
-                        <div class="icon">
-                            <img src="assets/img/icons/support-2.png" alt="">
-                        </div>
-                        <div class="content mt-25">
-                            <h4 class="title">Contact Us</h4>
-                            <p>
-                                <a href="tel:1008-345-6789">+ 1 008-345-6789</a>
-                                <a href="tel:1800-789-4561">+1 800-789-4561</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-30">
-                    <div class="stocox-support-box wow fadeInUp" data-wow-delay="400ms" data-wow-duration="800ms">
-                        <div class="icon">
-                            <img src="assets/img/icons/support-3.png" alt="">
-                        </div>
-                        <div class="content mt-25">
-                            <h4 class="title">Email Us</h4>
-                            <p>
-                                <a href="mailto:info@wenetworkllc.com">info@wenetworkllc.com</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== SUPPORT SECTION END ======-->
-
     <!--====== GET QUOTE SECTION START ======-->
-    <section class="sotcox-getquote-section">
+    <section class="sotcox-getquote-section wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <div class="sotcox-section-heading sotcox-section-heading__style-2 text-center mb-60">
-                        <h2 class="heading">Just have a quick any questions?</h2>
+                    <div class="sotcox-section-heading sotcox-section-heading__style-2 text-center mb-60 mt-60">
+                        <h2 class="heading">Have a Quick Question</h2>
                     </div>
                 </div>
             </div>
@@ -329,9 +281,7 @@
 
     <!--====== MAP SECTION END ======-->
 
-    <!-- <div class="sotcox-map-section mb-none-120"></div> -->
-
-    <div id="map" style="height: 600px; width: 100%; top: 103px;"></div>
+    <div id="map" class="sotcox-map-section wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms" style="height: 600px; width: 100%; top: 103px;"></div>
 
     <!--====== MAP SECTION END ======-->
 
@@ -418,16 +368,15 @@
     <!--========= JS Here =========-->
     <script>
         var locations = [
-            ['Bondi Beach', -33.890542, 151.274856, 4],
-            ['Coogee Beach', -33.923036, 151.259052, 5],
-            ['Cronulla Beach', -34.028249, 151.157507, 3],
-            ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
-            ['Maroubra Beach', -33.950198, 151.259302, 1]
+            ['We Network LLC, Muscat', 23.567574931617045, 58.16923863558176, 1],
+            ['VYK Network Pvt. Limited', 22.79485766636547, 75.91693361036918, 4],
+            ['ICS LLC', 23.659236133948333, 58.120768955051524, 3],
+            ['We Network LLC, Dubai',25.245112623582596, 55.31083926546521,2 ]
         ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 10,
-            center: new google.maps.LatLng(-33.92, 151.25),
+            zoom: 4,
+            center: new google.maps.LatLng(21, 78),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
