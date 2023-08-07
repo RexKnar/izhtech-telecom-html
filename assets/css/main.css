@@ -495,6 +495,15 @@ input[type=search]::-webkit-search-results-decoration {
   height: 100%;
 }
 
+.overlay {
+  position: absolute; 
+  background: rgba(57, 57, 57, 0.5);
+}
+
+.overlay_2 {
+  inset: 0;
+}
+
 .dark-bg {
   background-color: #171719;
 }
@@ -4400,6 +4409,11 @@ h6 {
 
 .sotcox-project-item {
   position: relative;
+  height: 100%;
+}
+.sotcox-project-item:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  transition: ease-in-out .3s;
 }
 
 .sotcox-project-item .thumb img {
@@ -4411,15 +4425,17 @@ h6 {
   position: absolute;
   bottom: 0;
   left: 0;
+  height: 100%;
   width: 100%;
   background: #ffffff;
-  padding: 20px 0px;
+  padding: 5px 0px;
   padding-bottom: 15px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+  
 }
 
 .sotcox-project-item .content .title {
@@ -8241,15 +8257,14 @@ blockquote code {
   margin-bottom: -123px;
 }
 
-.sotcox-map-section iframe {
-  min-height: 650px;
-  width: 100%;
-  filter: grayscale(100%) invert(100%);
-  border: none;
+.sotcox-map-section {
+ 
+  filter: grayscale(70%) invert(100%);
+ 
 }
 
 @media (max-width: 767px) {
-  .sotcox-map-section iframe {
+  .sotcox-map-section {
     min-height: 450px;
   }
 }
