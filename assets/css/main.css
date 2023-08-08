@@ -679,7 +679,7 @@ span.border-effect:hover {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #4be084;
+  background: #7af3c5;
   margin: 0px 2.5px;
   display: inline-block;
 }
@@ -693,7 +693,7 @@ span.border-effect:hover {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #4be084;
+  color: #266ff2;
   letter-spacing: 0.02em;
   display: inline-block;
   position: relative;
@@ -709,13 +709,13 @@ span.border-effect:hover {
   width: 100%;
   height: 100%;
   height: 2px;
-  background: #4ddfbe;
+  background: #266ff2;
   top: auto;
   bottom: -2px;
 }
 
 .sotcox-section-heading .heading {
-  font-size: 48px;
+ 
   line-height: 60px;
   letter-spacing: -0.01em;
 }
@@ -2380,7 +2380,7 @@ h6 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #4be084;
+  background: #7af3c5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -2492,7 +2492,7 @@ h6 {
   height: 100%;
   width: 9px;
   height: 9px;
-  background: #4be084;
+  background: #4cdf84;
   bottom: 20px;
   left: -15px;
   border-radius: 50%;
@@ -2513,7 +2513,7 @@ h6 {
 }
 
 .sotcox-main-menu ul li:hover a {
-  color: #4be084;
+  color: #4cdf84;
 }
 
 .sotcox-main-menu ul li:hover>.sub-menu {
@@ -2692,7 +2692,7 @@ h6 {
   font-weight: 700;
   border-radius: 5px;
   display: inline-block;
-  background: #266ff0;
+  background: #266ff2;
   letter-spacing: 0.1em;
   position: relative;
   -webkit-transition: 0.4s linear;
@@ -2727,7 +2727,7 @@ h6 {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #4be084;
+  background-color: #4CDF84;
   transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -3131,7 +3131,7 @@ h6 {
 .side-info__close {
   top: 0;
   left: 0;
-  background: #78f0c3;
+  background: #7af3c5;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -3425,8 +3425,8 @@ h6 {
 
 .sotcox-slide-nav .owl-nav div:hover {
   color: #ffffff;
-  background: #4ddfbe;
-  border-color: #4ddfbe;
+  background: #7af3c5;
+  border-color: #7af3c5;
 }
 
 @media (max-width: 1199px) {
@@ -3921,12 +3921,12 @@ h6 {
   font-weight: 600;
 }
 
-.review-wrapper .item .content p {
+.review-wrapper .item .content p {  
   color: #818181;
 }
 
 .review-wrapper .item .content p i {
-  color: #4be084;
+  color: #266ff2;
 }
 
 .review-wrapper .item .content p span {
@@ -4283,7 +4283,7 @@ h6 {
 }
 
 .sotcox-workflow-box .sotcox-dots span:first-child {
-  background: #4be084;
+  background: #7af3c5;
 }
 
 .sotcox-workflow-box__1.active .count {
@@ -4379,7 +4379,7 @@ h6 {
   font-size: 14px;
   border-radius: 5px;
   padding: 1px 13px;
-  border: 1px solid #E6EEFB;
+  border: 1px solid #7af3c5;
   cursor: pointer;
   text-transform: capitalize;
   -webkit-transition: 0.4s;
@@ -4415,12 +4415,11 @@ h6 {
 
 @media (max-width: 475px) {
   .project-card{
-    height: 440px;
+    height: 300px;
   }
 
   .project-card p {
   width: 250px;
-  padding-left: 12px;
 }
 .project-card h4 {
   width: 250px;
@@ -4556,6 +4555,12 @@ h6 {
 }
 
 /* PROJECT CSS END */
+
+/* PROJECT GALLERY STARTS */
+
+
+
+/* PROJECT GALLERY ENDS */
 /* WCO CSS START */
 @media (max-width: 1199px) {
   .sotcox-wcu-section .sotcox-section-heading {
@@ -5480,7 +5485,7 @@ h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #4be084;
+  background: #4cdf84;
   border-radius: 50%;
 }
 
@@ -8036,7 +8041,7 @@ blockquote code {
 }
 
 .featured-lists li i {
-  color: #4ddfbe;
+  color: #7af3c5;
   margin-right: 10px;
   translate: 0px 5px;
 }
@@ -8493,7 +8498,7 @@ blockquote code {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #4be084;
+  background: #7af3c5;
   top: 50%;
   translate: 0 -50%;
   -webkit-transition: 0.4s;
@@ -8502,11 +8507,11 @@ blockquote code {
 }
 
 .sotcox-footer-widgets ul li a:hover::after {
-  background: #4ddfbe;
+  background: #4cdf84;
 }
 
 .sotcox-footer-widgets .about-widget p i {
-  color: #4be084;
+  color: #7af3c5;
   margin-right: 5px;
 }
 
