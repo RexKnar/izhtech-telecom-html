@@ -4210,6 +4210,12 @@ h6 {
   .sotcox-workflow-box {
     padding: 35px 30px;
   }
+  .sotcox-service-section-page .sotcox-service-item {
+    height: 275px;
+  }
+  .service-item{
+    padding: 18px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4560,11 +4566,11 @@ h6 {
 /* PROJECT GALLERY STARTS */
 
 .masonry-column {
-  padding: 0 1px;
+  padding: 0 2px;
 }
 
-.masonry-grid > div .thumbnail {
-  margin: 5px 1px;
+.masonry-grid div {
+  margin: 13px 3px;
 }
 
 
@@ -5769,6 +5775,9 @@ h6 {
 @media (max-width: 767px) {
   .sotcox-breadcrumb-wrapper {
     padding: 120px 0;
+  }
+  .breadcrumb-new{
+    padding: 12px 0;
   }
 }
 
@@ -8228,6 +8237,10 @@ blockquote code {
 
 .sotcox-team-details-page .team-info ul li {
   font-size: 18px;
+}
+.sotcox-team-details-page .team-info ul li i{
+  color: #7af3c5;
+  margin-right: 5px;
 }
 
 @media (max-width: 475px) {
