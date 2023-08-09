@@ -4191,7 +4191,8 @@ h6 {
 }
 
 .sotcox-service-section-page .sotcox-service-item {
-  border: 1px solid #E6EEFB;
+  border: 1px solid #7af3c5;
+  height: 286px;
 }
 
 /* SERVICE CSS END */
@@ -4287,19 +4288,19 @@ h6 {
 }
 
 .sotcox-workflow-box__1.active .count {
-  background: #09c3ff;
+  background: #4cdf84;
 }
 
 .sotcox-workflow-box__2.active .count {
-  background: #266ff2;
+  background: #4cdf84;
 }
 
 .sotcox-workflow-box__3.active .count {
-  background: #fdc330;
+  background: #4cdf84;
 }
 
 .sotcox-workflow-box__4.active .count {
-  background: #ff5151;
+  background: #4cdf84;
 }
 
 .sotcox-workflow-box.active {
@@ -4446,7 +4447,7 @@ h6 {
 
 .sotcox-project-item .thumb img {
   border-radius: 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .sotcox-project-item .content {
@@ -5707,7 +5708,7 @@ h6 {
 }
 
 .sotcox-getquote-form-wrapper {
-  background: #2377f3;
+  background: #266ff2;
   padding: 60px;
   padding-top: 50px;
   border-radius: 0px 10px 10px 0px;
@@ -5756,11 +5757,11 @@ h6 {
 }
 
 .sotcox-getquote-form-wrapper .sotcox-btn {
-  background: #4be084;
+  background: #4cdf84;
 }
 
 .sotcox-getquote-form-wrapper .sotcox-btn span {
-  background: #266ff0;
+  background: #266ff2;
 }
 
 /* GET-QUOTE CSS END */
@@ -6089,9 +6090,13 @@ h6 {
 /* MISSION CSS START */
 .sotcox-mission-box {
   border-radius: 10px;
-  border: 1px solid #E6EEFB;
+  border: 1px solid #7af3c5;
   padding: 50px;
   padding-bottom: 45px;
+}
+.sotcox-mission-box:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  transition: ease-in-out .5s;
 }
 
 @media (max-width: 767px) {
@@ -6346,11 +6351,15 @@ h6 {
 .stocox-support-box {
   text-align: center;
   padding: 45px 35px;
-  border: 1px solid #E6EEFB;
+  border: 1px solid #266ff2;
   border-radius: 10px;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+}
+.stocox-support-box:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  transition: ease-in-out .5s;
 }
 
 .stocox-support-box .icon {
