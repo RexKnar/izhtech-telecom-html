@@ -4327,6 +4327,7 @@ h6 {
   height: 300px;
 }
 
+
 .sotcox-project-section {
   position: relative;
 }
@@ -4422,7 +4423,7 @@ h6 {
 
 @media (max-width: 475px) {
   .project-card{
-    height: 300px;
+    height: 400px;
   }
 
   .project-card p {
