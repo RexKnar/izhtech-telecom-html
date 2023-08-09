@@ -50,6 +50,10 @@
     </div>
     <!--====== HEADER END ======-->
 
+    <!--====== OVERLAY START ======-->
+    <div class="sotcox-overlay"></div>
+    <!--====== OVERLAY END ======-->
+
     <!--====== HEADER START ======-->
     <header class="sotcox-header pt-50 pb-50 uk-sticky" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
         <div class="container-fluid sotcox-container__fluid">
@@ -113,15 +117,6 @@
         </div>
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="menu-tab-1" role="tabpanel" aria-labelledby="menu-tab-1-tab">
-                <div class="search-box">
-                    <form class="search-widget sotcox-input-field position-relative"
-                        action="https://demo.techsometimes.com/sotcox/blog.html" method="get">
-                        <div>
-                            <input type="search" value="" required="" name="s" placeholder="Search...">
-                            <button type="submit"><i class="far fa-search"></i></button>
-                        </div>
-                    </form>
-                </div>
                 <div class="sotcox-mobile-menu"></div>
             </div>
             <div class="tab-pane fade" id="menu-tab-2" role="tabpanel" aria-labelledby="menu-tab-2-tab">
@@ -224,7 +219,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="sotcox-breadcrumb-wrapper position-relative">
+                    <div class="sotcox-breadcrumb-wrapper breadcrumb-new position-relative">
                         <h2 class="page-title mt-25" style="color: #e3e4e6;">Contact us </h2>
                         <div class="right-img">
                             <!-- <img style="height: auto; width: 100%;" src="./assets/images/telecom-tower.jpg" alt=""> -->
@@ -236,8 +231,6 @@
     </section>
     <!--====== BREADCRUMB SECTION END ======-->
 
-
-
     <!--====== GET QUOTE SECTION START ======-->
     <section class="sotcox-getquote-section wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms">
         <div class="container">
@@ -245,7 +238,7 @@
                 <div class="col-xl-8">
                     <div class="sotcox-post-box sotcox-onhover-zoom format format-image mt-70 pb-30">
                         <div class="content">
-                            <h2 class="title border-effect">
+                            <h2 class="title border-effect ms-2">
                                 <a>Let's Connect</a>
                             </h2>
                         </div>
@@ -289,44 +282,37 @@
     </section>
     <!--====== GET QUOTE SECTION END ======-->
 
-    <!--====== MAP SECTION END ======-->
-    <div class="container-fluid">
-        <div class="row ">
-            <div class="col-lg-3 text-left pl-100" style="margin:60px 63px;">
-                    <ul class="list-unstyled">
-                        <li class="d-flex gap-4 pb-30">
-                            <span><i class="fas fa-map-marker-alt fs-1"></i></span>
-                            <p class=""><b>We Network LLC,</b><br>
-                                First floor,0401-Z-319-KOM-4<br>
-                                Knowlwdge Oasis Muscat,<br>
-                                PO BOX: 1641,<br> Postal Code:114,<br>
-                                Al Rusayl, Muscat Sultanate of Oman
-                            </p>
-                        </li>
-                        <li class="d-flex gap-4 pb-30">
-                            <span><i class="fas fs-1 fa-phone"></i></span>
-                            <a href="tel:08510005495"><b>0251600XXXX</b></a>
-                        </li>
-                        <li class="d-flex gap-4 pb-30">
-                            <span><i class="fas fs-1 fa-envelope-open-text"></i></span>
-                            <a href="mailto:pardeepkumar4bjp@gmail.com"> 
-                                info@wenetworkllc.com</a>
-                        </li>
-                    </ul>
+    
 
-            </div>
-            <div class="col-lg-8 p-o">
-                <div id="map" class="sotcox-map-section wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms"
-                    style="height: 600px; width: 100%; top: 0px;"></div>
+    <!--====== MAP SECTION END ======-->
+
+    <div class="sotcox-details-page sotcox-team-details-page pb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 align-self-center">
+                    <div class="team-info ">
+                        <h4 class="name">We're Here</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-map-marker-alt"></i><span>Address:</span> <p>We Network LLC, first floor,
+                                0401-Z-319-KOM-4,<br> Knowledge Oasis
+                                Muscat, Sultanate of Oman. </p></li>
+                            <li><i class="far fa-envelope"></i><span>E-mail: </span>info@wenetworkllc.com</li>
+                            <li><i class="fas fa-phone"></i><span>Phone: </span>+1-800-456-478-00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div id="map" class="sotcox-map-section wow fadeInUp" data-wow-delay="300ms" data-wow-duration="800ms"
+        style="height: 400px; border-radius: 20px; width: 100%; top: 0px;"></div>
+                </div>
             </div>
         </div>
     </div>
 
-
     <!--====== MAP SECTION END ======-->
 
     <!-- Address Section -->
-    <div class="stocox-support-secttion theme-light-bg pb-90 pt-30">
+    <div class="stocox-support-secttion pb-90 pt-30">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">
