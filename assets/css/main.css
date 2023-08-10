@@ -3927,7 +3927,7 @@ h6 {
 }
 
 .review-wrapper .item .content p i {
-  color: #266ff2;
+  color: #f6ef1c;
 }
 
 .review-wrapper .item .content p span {
@@ -4298,19 +4298,19 @@ h6 {
 }
 
 .sotcox-workflow-box__1.active .count {
-  background: #4cdf84;
+  background: #09c3ff;
 }
 
 .sotcox-workflow-box__2.active .count {
-  background: #4cdf84;
+  background: #266ff2;
 }
 
 .sotcox-workflow-box__3.active .count {
-  background: #4cdf84;
+  background: #fdc330;
 }
 
 .sotcox-workflow-box__4.active .count {
-  background: #4cdf84;
+  background: #ff5151;
 }
 
 .sotcox-workflow-box.active {
