@@ -343,7 +343,7 @@
 
 /* reset css start */
 body {
-  font-family: "Arimo", sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -4077,7 +4077,7 @@ h6 {
 .sotcox-service-item {
   border-right: 1px solid #E6EEFB;
   position: relative;
-  padding: 50px;
+  padding: 20px;
 }
 
 .sotcox-service-item:hover {
@@ -8257,7 +8257,7 @@ blockquote code {
 
 .sotcox-team-details-page .team-info ul li i {
   color: #7af3c5;
-  margin-right: 5px;
+  margin-right: 14px;
 }
 
 @media (max-width: 475px) {
