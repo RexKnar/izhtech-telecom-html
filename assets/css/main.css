@@ -496,7 +496,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .overlay {
-  position: absolute; 
+  position: absolute;
   background: rgba(57, 57, 57, 0.5);
 }
 
@@ -715,7 +715,7 @@ span.border-effect:hover {
 }
 
 .sotcox-section-heading .heading {
- 
+
   line-height: 60px;
   letter-spacing: -0.01em;
 }
@@ -2254,8 +2254,8 @@ h6 {
   right: 0;
 }
 
-.breadcrumb-area > .sotcox-overlay1 {
-  background-color:rgba(0, 0, 0, 0.7);
+.breadcrumb-area>.sotcox-overlay1 {
+  background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -2264,6 +2264,7 @@ h6 {
   left: 0;
   opacity: 0.5;
 }
+
 .sotcox-overlay.is-open {
   width: 100%;
   opacity: 0.5;
@@ -3921,7 +3922,7 @@ h6 {
   font-weight: 600;
 }
 
-.review-wrapper .item .content p {  
+.review-wrapper .item .content p {
   color: #818181;
 }
 
@@ -4079,10 +4080,11 @@ h6 {
   padding: 50px;
 }
 
-.sotcox-service-item:hover{
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+.sotcox-service-item:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
   transition: ease-in-out .5s;
 }
+
 .sotcox-service-item::after {
   position: absolute;
   left: 0;
@@ -4210,10 +4212,12 @@ h6 {
   .sotcox-workflow-box {
     padding: 35px 30px;
   }
+
   .sotcox-service-section-page .sotcox-service-item {
     height: 275px;
   }
-  .service-item{
+
+  .service-item {
     padding: 18px;
   }
 }
@@ -4323,7 +4327,7 @@ h6 {
 
 /* WORKFLOW CSS END */
 /* PROJECT CSS START */
-.project-card{
+.project-card {
   height: 300px;
 }
 
@@ -4422,16 +4426,23 @@ h6 {
 }
 
 @media (max-width: 475px) {
-  .project-card{
+  .content-left-wrapper {
+    overflow: scroll;
+    height: 94px;
+  }
+
+  .project-card {
     height: 400px;
   }
 
   .project-card p {
-  width: 250px;
-}
-.project-card h4 {
-  width: 250px;
-}
+    width: 250px;
+  }
+
+  .project-card h4 {
+    width: 250px;
+  }
+
   .sotcox-project-filter__style-2 li:not(:last-child) {
     margin-right: 0px;
   }
@@ -4447,8 +4458,9 @@ h6 {
   position: relative;
   height: 100%;
 }
-.sotcox-project-item:hover{
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+.sotcox-project-item:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
   transition: ease-in-out .3s;
 }
 
@@ -4471,7 +4483,7 @@ h6 {
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  
+
 }
 
 .sotcox-project-item .content .title {
@@ -5717,7 +5729,7 @@ h6 {
 .sotcox-getquote-form-wrapper {
   background: #266ff2;
   padding: 60px;
-  padding-top: 58px;
+  padding-top: 50px;
   border-radius: 0px 10px 10px 0px;
 }
 
@@ -5777,7 +5789,8 @@ h6 {
   .sotcox-breadcrumb-wrapper {
     padding: 120px 0;
   }
-  .breadcrumb-new{
+
+  .breadcrumb-new {
     padding: 12px 0;
   }
 }
@@ -6104,8 +6117,9 @@ h6 {
   padding: 50px;
   padding-bottom: 45px;
 }
-.sotcox-mission-box:hover{
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+.sotcox-mission-box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
   transition: ease-in-out .5s;
 }
 
@@ -6367,8 +6381,9 @@ h6 {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-.stocox-support-box:hover{
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+.stocox-support-box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
   transition: ease-in-out .5s;
 }
 
@@ -8239,7 +8254,8 @@ blockquote code {
 .sotcox-team-details-page .team-info ul li {
   font-size: 18px;
 }
-.sotcox-team-details-page .team-info ul li i{
+
+.sotcox-team-details-page .team-info ul li i {
   color: #7af3c5;
   margin-right: 5px;
 }
@@ -8322,9 +8338,9 @@ blockquote code {
 }
 
 .sotcox-map-section {
- 
+
   filter: grayscale(70%) invert(100%);
- 
+
 }
 
 @media (max-width: 767px) {
