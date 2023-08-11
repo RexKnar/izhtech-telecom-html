@@ -283,6 +283,19 @@
 	var $grid = $(".sotcox-project-grid");
 
 	var filterFns = {};
+
+	$(".sotcox-project-filter").on("click", "li", function () {
+		var filterValue = $(this).attr("data-filter");
+		filterValue = filterFns[filterValue] || filterValue;
+		$grid.isotope({
+			filter: filterValue,
+		});
+	});
+
+	// project page loading
+	var $grid = $(".project");
+
+	var filterFns = {};
 	var defaultFilterValue = $(".sotcox-project-filter li:first-child").attr("data-filter");
 	
     $grid.isotope({
@@ -296,6 +309,8 @@
 			filter: filterValue,
 		});
 	});
+
+
 
 	// change is-checked class on buttons
 	$(".sotcox-project-filter").each(function (i, buttonGroup) {
