@@ -2594,7 +2594,7 @@ h6 {
   transform: translateY(1px);
   display: inline-block;
   padding-left: 7px;
-  /* font-family: "Font Awesome 5 Pro"; */
+  font-family: "Font Awesome 5 Pro";
   transition: all 0.4s linear;
 }
 
@@ -5977,7 +5977,7 @@ h6 {
 .faq__item .accordion-button::after {
   right: 0px;
   content: "";
-  /* font-family: "Font Awesome 5 Pro"; */
+  font-family: "Font Awesome 5 Pro";
   text-align: center;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -6085,7 +6085,7 @@ h6 {
 .sotcox-faq-tab a::after {
   right: 30px;
   content: "";
-  /* font-family: "Font Awesome 5 Pro"; */
+  font-family: "Font Awesome 5 Pro";
   text-align: center;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -7148,7 +7148,7 @@ h6 {
   width: 100%;
   height: 100%;
   content: "";
-  /* font-family: "Font Awesome 5 Pro"; */
+  font-family: "Font Awesome 5 Pro";
   width: auto;
   height: auto;
   left: auto;
