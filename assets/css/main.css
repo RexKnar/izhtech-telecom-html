@@ -346,15 +346,15 @@
 
 /* reset css start */
 *{
-  font-family: 'lexend';
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.fontChange{
-  font-family: 'Trebuchet MS' !important;
+.title-font{
+  font-family: 'lexend' !important;
 }
 
 body {
-  font-family: "Arimo", sans-serif;
+  /* font-family: "Arimo", sans-serif; */
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -377,7 +377,7 @@ button {
 
 button {
   border: none;
-  font-family: "Arimo", sans-serif;
+  /* font-family: "Arimo", sans-serif; */
   background: transparent;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -389,14 +389,14 @@ button:focus {
 }
 
 span {
-  font-family: "Arimo", sans-serif;
+  /* font-family: "Arimo", sans-serif; */
 }
 
 a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-family: "Arimo", sans-serif;
+  /* font-family: "Arimo", sans-serif; */
   text-decoration: none;
 }
 
@@ -2150,7 +2150,7 @@ h6 {
   color: #1B2E59;
   margin: 0;
   line-height: 1.4;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
 }
 
 h2 {
@@ -2594,7 +2594,7 @@ h6 {
   transform: translateY(1px);
   display: inline-block;
   padding-left: 7px;
-  font-family: "Font Awesome 5 Pro";
+  /* font-family: "Font Awesome 5 Pro"; */
   transition: all 0.4s linear;
 }
 
@@ -4124,7 +4124,7 @@ h6 {
 }
 
 .sotcox-service-item .title a {
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   color: #1B2E59;
 }
 
@@ -4205,7 +4205,7 @@ h6 {
 
 .sotcox-service-section-page .sotcox-service-item {
   border: 1px solid #7af3c5;
-  height: 230px;
+  height: 200px;
 }
 
 /* SERVICE CSS END */
@@ -4266,7 +4266,7 @@ h6 {
   border-radius: 50%;
   font-size: 14px;
   font-weight: 600;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   right: -15px;
   top: 0;
   background: #ffffff;
@@ -4398,7 +4398,7 @@ h6 {
 }
 
 .sotcox-project-filter li {
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   font-size: 14px;
   border-radius: 5px;
   padding: 1px 13px;
@@ -4506,7 +4506,7 @@ h6 {
 
 .sotcox-project-item .content .title a {
   color: #1B2E59;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
 }
 
 .sotcox-project-item .content .cat {
@@ -4975,7 +4975,7 @@ h6 {
 }
 
 .sotcox-article-item .title a {
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   font-size: 24px;
   color: #1B2E59;
 }
@@ -5002,7 +5002,7 @@ h6 {
   transition: 0.4s;
   color: #bbc1ce;
   margin-top: 10px;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
 }
 
 .sotcox-article-item .article-cats a:not(:last-child) {
@@ -5233,7 +5233,7 @@ h6 {
 
 .sotcox-contact-info-box p {
   margin-top: 15px;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
@@ -5340,7 +5340,7 @@ h6 {
 
 .sotcox-contact-info-box p {
   margin-top: 15px;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
@@ -5589,7 +5589,7 @@ h6 {
 }
 
 .sotcox-team-item {
-  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.04);
+  /* box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.04); */
   padding: 10px;
   border-radius: 10px;
 }
@@ -5767,7 +5767,7 @@ h6 {
   margin-bottom: 10px;
   text-transform: capitalize;
   color: #ffffff;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   letter-spacing: 0.02em;
 }
 
@@ -5959,7 +5959,7 @@ h6 {
 
 .faq__item .accordion-button {
   font-size: 18px;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   font-weight: 700;
   padding: 12px 0px;
   border-radius: 0px !important;
@@ -5977,7 +5977,7 @@ h6 {
 .faq__item .accordion-button::after {
   right: 0px;
   content: "";
-  font-family: "Font Awesome 5 Pro";
+  /* font-family: "Font Awesome 5 Pro"; */
   text-align: center;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -6074,7 +6074,7 @@ h6 {
   background: #E6EEFB;
   font-size: 18px;
   font-weight: 700;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   padding: 15px 30px;
   border-radius: 5px;
   display: block;
@@ -6085,7 +6085,7 @@ h6 {
 .sotcox-faq-tab a::after {
   right: 30px;
   content: "";
-  font-family: "Font Awesome 5 Pro";
+  /* font-family: "Font Awesome 5 Pro"; */
   text-align: center;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -6526,7 +6526,7 @@ h6 {
 }
 
 .sotcox-post-box .title a {
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   padding-bottom: 0.2%;
 }
 
@@ -7148,7 +7148,7 @@ h6 {
   width: 100%;
   height: 100%;
   content: "";
-  font-family: "Font Awesome 5 Pro";
+  /* font-family: "Font Awesome 5 Pro"; */
   width: auto;
   height: auto;
   left: auto;
@@ -7834,7 +7834,7 @@ blockquote code {
   font-weight: 700;
   font-size: 18px;
   color: #1B2E59;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
 }
 
 .sotcox-comment-box .date {
@@ -7917,7 +7917,7 @@ blockquote code {
 
 .sotcox-input-field label {
   font-size: 20px;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   color: #1B2E59;
   text-transform: capitalize;
   font-weight: 700;
@@ -8083,7 +8083,7 @@ blockquote code {
 .featured-lists li {
   font-weight: 500;
   color: #1B2E59;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   letter-spacing: -0.01em;
   display: -ms-flexbox;
   display: flex;
@@ -8320,7 +8320,7 @@ blockquote code {
 
 .sotcox-skill-item .knob {
   font-size: 42px !important;
-  font-family: "Archivo", sans-serif !important;
+  /* font-family: "Archivo", sans-serif; */
   color: #1B2E59 !important;
   margin-top: 65px !important;
 }
@@ -8628,7 +8628,7 @@ blockquote code {
 .sotcox-footer-widgets__style-2 .contact-info-widget .tel {
   font-size: 22px;
   font-weight: 600;
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   margin-bottom: 10px;
   display: inline-block;
 }
