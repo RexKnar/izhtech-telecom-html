@@ -2392,7 +2392,7 @@ h6 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #7af3c5;
+  background: #266ff2;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -5773,14 +5773,14 @@ h6 {
 
 .sotcox-getquote-form-wrapper .sotcox-input-field input,
 .sotcox-getquote-form-wrapper .sotcox-input-field textarea {
-  background: #4be084;
+  background: #ffffff;
   padding: 10px 20px;
   color: #baeeff;
 }
 
 .sotcox-getquote-form-wrapper .sotcox-input-field input::placeholder,
 .sotcox-getquote-form-wrapper .sotcox-input-field textarea::placeholder {
-  color: #baeeff;
+  color: #4cdf84;
 }
 
 .sotcox-getquote-form-wrapper .sotcox-input-field textarea {
@@ -8693,3 +8693,15 @@ blockquote code {
 }
 
 /* FOOTER CSS END */
+
+
+
+.text-justify{
+  text-align: justify
+}
+
+.why-us-card{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}

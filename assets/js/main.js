@@ -25,7 +25,7 @@
 				items: 2,
 			},
 			1200: {
-				items: 3,
+				items: 4,
 			},
 			1440: {
 				items: 4,
