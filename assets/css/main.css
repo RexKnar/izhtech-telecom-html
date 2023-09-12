@@ -18,10 +18,12 @@
 -----------------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
+
 @font-face {
-  font-family:'lexend';
+  font-family: 'lexend';
   src: url('../fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
 }
+
 @-webkit-keyframes zoom {
   0% {
     -webkit-transform: scale(1);
@@ -345,11 +347,11 @@
 }
 
 /* reset css start */
-*{
+* {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.title-font{
+.title-font {
   font-family: 'lexend' !important;
 }
 
@@ -4218,7 +4220,14 @@ h6 {
   transition: 0.4s;
   padding: 35px 30px;
 }
-
+@media (min-width:1023px){
+  .service-column-3{
+    height: 220px;
+  }
+  .service-column-2{
+    height: 188px;
+  }
+}
 @media (max-width: 767px) {
   .sotcox-workflow-box {
     padding: 35px 30px;
@@ -4233,9 +4242,9 @@ h6 {
   }
 }
 
-@media (max-width:767){
-  .service-column{
-height: 500px;
+@media (max-width:767) {
+  .service-column {
+    height: 500px;
   }
 }
 
@@ -4599,22 +4608,26 @@ height: 500px;
 .masonry-column {
   padding: 0 2px;
 }
-.masonry-column img{
+
+.masonry-column img {
   border-radius: 20px;
 }
+
 .middle {
   position: absolute;
   bottom: 0;
   height: 55px;
   width: 100%;
-  padding:10px;
+  padding: 10px;
   border-radius: 0px 0px 20px 20px;
-  color:#fff;
-  text-align:left;background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0,0,0,0.006127450980392135) 100%);
+  color: #fff;
+  text-align: left;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.006127450980392135) 100%);
 }
-.middle p{
-  color:#fff;
+
+.middle p {
+  color: #fff;
   font-weight: 900;
 }
 
@@ -8714,12 +8727,12 @@ blockquote code {
 
 
 
-.text-justify{
+.text-justify {
   text-align: justify
 }
 
-.why-us-card{
+.why-us-card {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
