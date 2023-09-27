@@ -5925,6 +5925,16 @@ h6 {
   }
   
 }
+@media (max-width: 475px) {
+  .award-area{
+    padding-left: 80px;
+  }
+}
+@media (max-width: 320px) {
+  .award-area-small{
+    padding-left: 24px;
+  }
+}
 
 .sotcox-breadcrumb ul {
   flex-wrap: wrap;
