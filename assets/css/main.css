@@ -5887,7 +5887,7 @@ h6 {
   position: relative;
   z-index: 10;
 }
-.title{
+.telecom-title{
   color: #ffffff;
   font-size: 55px;
   font-weight: 700;
@@ -5900,7 +5900,7 @@ h6 {
   .breadcrumb-area .page-title {
     font-size: 39px;
   }
-  .title{
+  .telecom-title{
     font-size: 26px;
   }
 }
