@@ -3401,7 +3401,7 @@ h6 {
 @media (max-width: 1199px) {
   .sotcox-slide-nav .owl-nav {
     display: -ms-flexbox;
-    display: flex;
+    display: none;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
