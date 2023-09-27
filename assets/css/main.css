@@ -4090,7 +4090,7 @@ h6 {
 .sotcox-service-item {
   border-right: 1px solid #E6EEFB;
   position: relative;
-  padding: 20px;
+  padding: 10px;
 }
 
 .sotcox-service-item:hover {
@@ -4209,6 +4209,10 @@ h6 {
   border: 1px solid #7af3c5;
   height: 200px;
 }
+.sotcox-service-section-page .contact-address {
+  border: 1px solid #7af3c5;
+  height: 160px;
+}
 
 /* SERVICE CSS END */
 /* WORKFLOW CSS START */
@@ -4228,6 +4232,7 @@ h6 {
     height: 188px;
   }
 }
+
 @media (max-width: 767px) {
   .sotcox-workflow-box {
     padding: 35px 30px;
@@ -4236,7 +4241,7 @@ h6 {
   .sotcox-service-section-page .sotcox-service-item {
     height: 275px;
   }
-
+  
   .service-item {
     padding: 18px;
   }
