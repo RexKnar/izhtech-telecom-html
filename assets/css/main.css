@@ -8540,6 +8540,10 @@ blockquote code {
 @media (max-width: 767px) {
   .sotcox-footer-widgets .row .sotcox-custom-col:not(:first-child) {
     padding-left: 12px;
+    margin-top:50px ;
+  }
+  .sotcox-footer-widgets ul li .telecom-service{
+    padding-top: 30px;
   }
 }
 
@@ -8563,6 +8567,9 @@ blockquote code {
 .sotcox-footer-widgets .widget-title {
   font-size: 24px;
   margin-bottom: 20px;
+}
+.sotcox-footer-widgets ul li .telecom-service{
+  padding-top: 3x;
 }
 
 .sotcox-footer-widgets ul {
@@ -8598,6 +8605,7 @@ blockquote code {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
+
 
 .sotcox-footer-widgets ul li a:hover::after {
   background: #4cdf84;
