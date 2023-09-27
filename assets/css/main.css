@@ -5887,10 +5887,21 @@ h6 {
   position: relative;
   z-index: 10;
 }
+.title{
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  position: relative;
+  z-index: 10;
+}
 
 @media (max-width: 767px) {
   .breadcrumb-area .page-title {
     font-size: 39px;
+  }
+  .title{
+    font-size: 26px;
   }
 }
 
@@ -5900,16 +5911,19 @@ h6 {
   top: 0px;
 }
 
+
 @media (max-width: 767px) {
   .breadcrumb-area .right-img {
     max-width: 435px;
   }
+ 
 }
 
 @media (max-width: 475px) {
   .breadcrumb-area .right-img {
     display: none;
   }
+  
 }
 
 .sotcox-breadcrumb ul {
@@ -6162,7 +6176,7 @@ h6 {
 .sotcox-mission-box {
   border-radius: 10px;
   border: 1px solid #7af3c5;
-  padding: 50px;
+  padding: 35px;
   padding-bottom: 45px;
 }
 
@@ -6173,7 +6187,7 @@ h6 {
 
 @media (max-width: 767px) {
   .sotcox-mission-box {
-    padding: 30px;
+    padding: 25px;
     padding-bottom: 25px;
   }
 }
