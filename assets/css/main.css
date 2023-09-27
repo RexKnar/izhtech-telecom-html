@@ -3401,7 +3401,7 @@ h6 {
 @media (max-width: 1199px) {
   .sotcox-slide-nav .owl-nav {
     display: -ms-flexbox;
-    display: flex;
+    display: none;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
@@ -5924,6 +5924,16 @@ h6 {
     display: none;
   }
   
+}
+@media (max-width: 475px) {
+  .award-area{
+    padding-left: 80px;
+  }
+}
+@media (max-width: 320px) {
+  .award-area-small{
+    padding-left: 24px;
+  }
 }
 
 .sotcox-breadcrumb ul {
