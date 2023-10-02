@@ -4209,6 +4209,7 @@ h6 {
   border: 1px solid #7af3c5;
   height: 200px;
 }
+
 .sotcox-service-section-page .contact-address {
   border: 1px solid #7af3c5;
   height: 160px;
@@ -4224,11 +4225,13 @@ h6 {
   transition: 0.4s;
   padding: 35px 30px;
 }
-@media (min-width:1023px){
-  .service-column-3{
+
+@media (min-width:1023px) {
+  .service-column-3 {
     height: 220px;
   }
-  .service-column-2{
+
+  .service-column-2 {
     height: 188px;
   }
 }
@@ -4241,7 +4244,7 @@ h6 {
   .sotcox-service-section-page .sotcox-service-item {
     height: 275px;
   }
-  
+
   .service-item {
     padding: 18px;
   }
@@ -5887,7 +5890,8 @@ h6 {
   position: relative;
   z-index: 10;
 }
-.telecom-title{
+
+.telecom-title {
   color: #ffffff;
   font-size: 55px;
   font-weight: 700;
@@ -5900,7 +5904,8 @@ h6 {
   .breadcrumb-area .page-title {
     font-size: 39px;
   }
-  .telecom-title{
+
+  .telecom-title {
     font-size: 24px;
   }
 }
@@ -5916,22 +5921,27 @@ h6 {
   .breadcrumb-area .right-img {
     max-width: 435px;
   }
- 
+
 }
 
 @media (max-width: 475px) {
   .breadcrumb-area .right-img {
     display: none;
   }
-  
+
 }
+
 @media (max-width: 475px) {
-  .award-area{
-    padding-left: 80px;
+  .service-home {
+    padding-left: 2px;
+  }
+  .award-area {
+    padding-left: 60px;
   }
 }
+
 @media (max-width: 320px) {
-  .award-area-small{
+  .award-area-small {
     padding-left: 24px;
   }
 }
@@ -8557,20 +8567,22 @@ blockquote code {
 
 @media (max-width: 991px) {
   .sotcox-footer-widgets .row .sotcox-custom-col:not(:first-child) {
-    padding-left: 80px;
+    padding-left: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .sotcox-footer-widgets .row .sotcox-custom-col:not(:first-child) {
     padding-left: 12px;
-    margin-top:50px ;
+    margin-top: 50px;
   }
-  .sotcox-footer-widgets ul li .telecom-service{
-    padding-top: 30px;
+
+}
+@media only screen and (max-width:320px){
+  .sotcox-footer-widgets ul li .telecom-service {
+    padding-top: 30px !important;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .sotcox-footer-widgets .row .sotcox-custom-col:not(:first-child) {
     padding-left: 60px;
@@ -8592,8 +8604,9 @@ blockquote code {
   font-size: 24px;
   margin-bottom: 20px;
 }
-.sotcox-footer-widgets ul li .telecom-service{
-  padding-top: 3x;
+
+.sotcox-footer-widgets ul li .telecom-service {
+  padding-top: 3px;
 }
 
 .sotcox-footer-widgets ul {
