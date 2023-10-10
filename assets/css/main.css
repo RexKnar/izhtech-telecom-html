@@ -2433,7 +2433,7 @@ h6 {
   background: #E6EEFB;
   border-radius: 10px;
   width: 100%;
-  padding: 10px;
+
 }
 
 @media (max-width: 1199px) {
@@ -4613,13 +4613,13 @@ h6 {
 
 /* PROJECT GALLERY STARTS */
 
-.masonry-column {
+/* .masonry-column {
   padding: 0 2px;
 }
 
 .masonry-column img {
   border-radius: 20px;
-}
+} */
 
 .middle {
   position: absolute;
@@ -4627,7 +4627,6 @@ h6 {
   height: 55px;
   width: 100%;
   padding: 10px;
-  border-radius: 0px 0px 20px 20px;
   color: #fff;
   text-align: left;
   background: rgb(255, 255, 255);
@@ -6527,6 +6526,7 @@ h6 {
 
 .sotcox-post-box .thumb img {
   border-radius: 10px;
+  height: 400px;
 }
 
 .sotcox-post-box .meta-info {
@@ -8418,11 +8418,6 @@ blockquote code {
   margin-bottom: -123px;
 }
 
-.sotcox-map-section {
-
-  filter: grayscale(70%) invert(100%);
-
-}
 
 @media (max-width: 767px) {
   .sotcox-map-section {
