@@ -4493,6 +4493,15 @@ h6 {
   height: 100%;
 }
 
+.project-box {
+  height: 100%;
+  width: 500px;
+}
+
+.project-list {
+  margin-left: 100px;
+}
+
 .sotcox-project-item:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, .2);
   transition: ease-in-out .3s;
@@ -5934,6 +5943,7 @@ h6 {
   .service-home {
     padding-left: 2px;
   }
+
   .award-area {
     padding-left: 60px;
   }
@@ -8573,11 +8583,13 @@ blockquote code {
   }
 
 }
-@media only screen and (max-width:320px){
+
+@media only screen and (max-width:320px) {
   .sotcox-footer-widgets ul li .telecom-service {
     padding-top: 30px !important;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .sotcox-footer-widgets .row .sotcox-custom-col:not(:first-child) {
     padding-left: 60px;
