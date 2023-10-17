@@ -2297,7 +2297,7 @@ h6 {
 
 .sotcox-logo-menu-wrapper .sotcox-logo {
   margin-right: 50px;
-  max-width: 185px;
+  max-width: 90px;
 }
 
 .sotcox-logo-menu-wrapper .sotcox-logo__sticky {
@@ -8521,7 +8521,7 @@ blockquote code {
 }
 
 .sotcox-footer-logo img {
-  max-width: 185px;
+  max-width: 100px;
 }
 
 .sotcox-footer-widgets .row {
