@@ -51,7 +51,7 @@
 
   <!--====== HEADER START ======-->
   <header class="sotcox-header pt-50 pb-50 uk-sticky" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
-    <div class="container-fluid sotcox-container__fluid">
+    <div class="container-fluid ">
         <div class="row">
             <div class="col-xl-10 col-lg-4 col-sm-6 col-7 align-self-center">
                 <div class="sotcox-logo-menu-wrapper">
@@ -393,6 +393,38 @@
             </div>
           </div>
         </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 mt-30 justify-content-center">
+          <div class="sotcox-service-item contact-address pt-30">
+            <div class="row">
+              <div class="col-lg-2 my-auto">
+                <img height="70px" width="70px" src="./assets/img/Contact/india (1).png" alt="">
+              </div>
+              <div class="col-lg-10">
+                <p><b class="title-font">Malwa Retreat Mandu</b><br>
+                  Naka main road, Mandu Dist. Dhar,<br>
+                  Madhya Pradesh,<br> Pincode: 454020
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 mt-30 justify-content-center">
+          <div class="sotcox-service-item contact-address pt-30">
+            <div class="row">
+              <div class="col-lg-2 my-auto">
+                <img height="70px" width="70px" src="./assets/img/Contact/Oman.png" alt="">
+              </div>
+              <div class="col-lg-10">
+                <p><b class="title-font">Oasis Badminton Academy</b><br>
+                  Street No-319, Building-1510/1,<br>
+                  PO:3369, PC-111<br>
+                  Ghala industrial area, Bousher<br>
+                  Muscat, Sultanate of Oman.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -454,7 +486,8 @@
                 <li><a class="text-light" href="./index.html">Home</a></li>
                 <li><a class="text-light" href="./about.html">About</a></li>
                 <li><a class="text-light" href="./services.html">Services</a></li>
-                <li><a class="text-light" href="./project.html">Projects</a></li>
+                <li><a class="text-light" href="./project.html">Project</a></li>
+                <li><a class="text-light" href="./product.html">Product</a></li>
                 <li><a class="text-light" href="./ProjectGallery.html">Gallery</a></li>
                 <li><a class="text-light" href="./career.html">Career</a></li>
                 <li><a class="text-light" href="./contact.html">Contact us</a></li>
@@ -489,40 +522,7 @@
   <!--====== FOOTER END ======-->
 
   <!--========= JS Here =========-->
-  <script>
-    var locations = [
-      ['We Network LLC, Muscat', 23.567574931617045, 58.16923863558176, 1],
-      ['VYK Network Pvt. Limited', 22.79485766636547, 75.91693361036918, 4],
-      ['ICS LLC', 23.659236133948333, 58.120768955051524, 3],
-      ['Wee Communication Network LLC, Dubai', 25.245112623582596, 55.31083926546521, 2]
-    ];
-
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 4,
-      center: new google.maps.LatLng(21, 78),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
-
-
-    var infowindow = new google.maps.InfoWindow();
-
-    var marker, i;
-
-    for (i = 0; i < locations.length; i++) {
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
-      });
-      // infowindow.setContent(locations[i][0]);
-      // infowindow.open(map, marker);
-      google.maps.event.addListener(marker, 'click', (function (marker, i) {
-        return function () {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
-  </script>
+  
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/jquery.meanmenu.min.js"></script>
