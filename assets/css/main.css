@@ -3396,6 +3396,10 @@ h6 {
   justify-content: center;
 }
 
+.owl-item .sotcox-team-item img{
+  margin:auto;
+}
+
 /* SOCIAL LINKS CSS END */
 /* OWL NAV CSS START */
 @media (max-width: 1199px) {
