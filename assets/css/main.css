@@ -3395,6 +3395,9 @@ h6 {
   display: flex;
   justify-content: center;
 }
+.sotcox-team-item img {
+  margin: auto;
+}
 
 .owl-item .sotcox-team-item img{
   margin:auto;
