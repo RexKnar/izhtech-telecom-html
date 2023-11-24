@@ -2309,7 +2309,11 @@ h6 {
     margin-right: 0px;
   }
 }
-
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+  .sotcox-logo-menu-wrapper{
+    width: 71rem;
+  }
+}
 @media (max-width: 1199px) {
   .sotcox-header {
     padding: 20px 0px;
