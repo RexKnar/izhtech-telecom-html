@@ -2297,7 +2297,7 @@ h6 {
 
 .sotcox-logo-menu-wrapper .sotcox-logo {
   margin-right: 50px;
-  max-width: 90px;
+  max-width: 100px;
 }
 
 .sotcox-logo-menu-wrapper .sotcox-logo__sticky {
@@ -8509,7 +8509,20 @@ blockquote code {
     margin-top: 15px;
   }
 }
-
+.footer-address{
+  padding-left: 0px;
+}
+.footer-padding{
+  padding: 0px;
+}
+@media (min-width: 770px){
+  .footer-address{
+    padding-left: 24px;
+  }
+  .footer-padding{
+    padding: 100px;
+  }
+}
 .sotcox-backtotop button {
   text-transform: capitalize;
   color: #727885;
@@ -8615,6 +8628,9 @@ blockquote code {
   .sotcox-footer-widgets .row .sotcox-custom-col:last-child {
     padding-left: 12px;
     border: none;
+  }
+  .sotcox-footer-widgets .row .sotcox-custom-col:not(:last-child) {
+    border-right: none;
   }
 }
 
