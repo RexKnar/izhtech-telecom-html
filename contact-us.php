@@ -40,10 +40,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
         $mail->isSMTP();
-        $mail->Host = 'mail.izhtech.com';
+        $mail->Host = 'mail.wenetworkllc.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'no-reply@izhtech.com';
-        $mail->Password = 'noreply@123';
+        $mail->Username = 'hr@wenetworkllc.com';
+        $mail->Password = 'Nkt@1596*';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
