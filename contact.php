@@ -520,8 +520,8 @@
         <div class="row">
           <div class="col-md-8">
             <p class="text-light">
-              Copyright &copy; <span class="text-light" id="copyright-date"></span> WE Network LLC, All
-              Rights Reserved.
+            Copyright &copy; <span class="text-light" id="copyright-date"></span> WE Network LLC, All
+              Rights Reserved. Designed by Izh-Tech
             </p>
           </div>
           <div class="col-md-4">

@@ -2525,7 +2525,9 @@ h6 {
 .sotcox-main-menu ul li:hover>a {
   color: #4be084;
 }
-
+.active{
+  color: #4be084;
+}
 .sotcox-main-menu ul li:hover>a::before {
   opacity: 1;
 }
