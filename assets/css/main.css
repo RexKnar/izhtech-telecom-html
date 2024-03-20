@@ -2497,7 +2497,11 @@ h6 {
   position: relative;
 }
 
-.sotcox-main-menu ul li a:focus {
+.sotcox-main-menu ul li a:active{
+  color: #4cdf84;
+}
+
+.sotcox-main-menu ul li:focus {
   color: #78f0c3;
 }
 
@@ -2522,19 +2526,17 @@ h6 {
   opacity: 0.3;
 }
 
-.sotcox-main-menu ul li:hover>a {
+.sotcox-main-menu ul li.active > a {
   color: #4be084;
 }
-.active{
-  color: #4be084;
-}
+
 .sotcox-main-menu ul li:hover>a::before {
   opacity: 1;
 }
 
-.sotcox-main-menu ul li:hover a {
+/* .sotcox-main-menu ul li:hover a {
   color: #4cdf84;
-}
+} */
 
 .sotcox-main-menu ul li:hover>.sub-menu {
   visibility: visible;
@@ -5835,7 +5837,7 @@ h6 {
 .sotcox-getquote-form-wrapper .sotcox-input-field textarea {
   background: #ffffff;
   padding: 10px 20px;
-  color: #baeeff;
+  color: #404142;
 }
 
 .sotcox-getquote-form-wrapper .sotcox-input-field input::placeholder,
@@ -7491,6 +7493,9 @@ h6 {
 
 .sotcox-details-navigation {
   align-items: center;
+}
+footer a:hover{
+  color: #4ddfbe;
 }
 
 @media (max-width: 767px) {
