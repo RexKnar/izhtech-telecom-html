@@ -8,6 +8,7 @@ $(function() {
 
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
+		alert('Submited');
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
@@ -21,6 +22,8 @@ $(function() {
 			data: formData
 		})
 		.done(function(response) {
+			alert('done');
+			console.log(response);
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
@@ -32,9 +35,11 @@ $(function() {
 			$('#contact-form input,#contact-form textarea').val('');
 		})
 		.fail(function(data) {
+			alert('Failed');
+			console.log(data);
 			// Make sure that the formMessages div has the 'error' class.
-			$(formMessages).removeClass('success');
-			$(formMessages).addClass('error');
+			// $(formMessages).removeClass('success');
+			// $(formMessages).addClass('error');
 
 			// Set the message text.
 			if (data.responseText !== '') {
