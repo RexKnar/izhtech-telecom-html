@@ -40,16 +40,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
         $mail->isSMTP();
-        // $mail->Host = 'smtpout.secureserver.net';
-        // $mail->SMTPAuth = true;
-        // $mail->Username = 'hr@wenetworkllc.com';
-        // $mail->Password = 'Hyk@2024*';
-        // $mail->SMTPSecure = 'ssl';
-        // $mail->Port = 465;
-        $mail->Host = 'mail.rexknar.com';
+        $mail->Host = 'mail.wenetworkllc.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'info@rexknar.com';
-        $mail->Password = 'rexKnar@2018';
+        $mail->Username = 'hr@wenetworkllc.com';
+        $mail->Password = 'Nkt@1596*';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 

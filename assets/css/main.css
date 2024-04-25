@@ -2297,7 +2297,7 @@ h6 {
 
 .sotcox-logo-menu-wrapper .sotcox-logo {
   margin-right: 50px;
-  max-width: 90px;
+  max-width: 125px;
 }
 
 .sotcox-logo-menu-wrapper .sotcox-logo__sticky {
@@ -2309,7 +2309,11 @@ h6 {
     margin-right: 0px;
   }
 }
-
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+  .sotcox-logo-menu-wrapper{
+    width: 71rem;
+  }
+}
 @media (max-width: 1199px) {
   .sotcox-header {
     padding: 20px 0px;
@@ -2493,7 +2497,11 @@ h6 {
   position: relative;
 }
 
-.sotcox-main-menu ul li a:focus {
+.sotcox-main-menu ul li a:active{
+  color: #4cdf84;
+}
+
+.sotcox-main-menu ul li:focus {
   color: #78f0c3;
 }
 
@@ -2518,7 +2526,7 @@ h6 {
   opacity: 0.3;
 }
 
-.sotcox-main-menu ul li:hover>a {
+.sotcox-main-menu ul li.active > a {
   color: #4be084;
 }
 
@@ -2526,9 +2534,9 @@ h6 {
   opacity: 1;
 }
 
-.sotcox-main-menu ul li:hover a {
+/* .sotcox-main-menu ul li:hover a {
   color: #4cdf84;
-}
+} */
 
 .sotcox-main-menu ul li:hover>.sub-menu {
   visibility: visible;
@@ -5829,7 +5837,7 @@ h6 {
 .sotcox-getquote-form-wrapper .sotcox-input-field textarea {
   background: #ffffff;
   padding: 10px 20px;
-  color: #baeeff;
+  color: #404142;
 }
 
 .sotcox-getquote-form-wrapper .sotcox-input-field input::placeholder,
@@ -7486,6 +7494,9 @@ h6 {
 .sotcox-details-navigation {
   align-items: center;
 }
+footer a:hover{
+  color: #4ddfbe;
+}
 
 @media (max-width: 767px) {
   .sotcox-details-navigation {
@@ -8505,7 +8516,20 @@ blockquote code {
     margin-top: 15px;
   }
 }
-
+.footer-address{
+  padding-left: 0px;
+}
+.footer-padding{
+  padding: 0px;
+}
+@media (min-width: 770px){
+  .footer-address{
+    padding-left: 24px;
+  }
+  .footer-padding{
+    padding: 100px;
+  }
+}
 .sotcox-backtotop button {
   text-transform: capitalize;
   color: #727885;
@@ -8611,6 +8635,9 @@ blockquote code {
   .sotcox-footer-widgets .row .sotcox-custom-col:last-child {
     padding-left: 12px;
     border: none;
+  }
+  .sotcox-footer-widgets .row .sotcox-custom-col:not(:last-child) {
+    border-right: none;
   }
 }
 
