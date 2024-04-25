@@ -40,6 +40,101 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <?php
+    $projects =
+        [
+            array(
+                "project" => "Helios",
+                "logo" => "",
+                "title" => "Helios Tower projects ",
+                "period" => "Nov, 2022",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Helios Tower Oman'],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Colocation, Greenfield, Tower maintenance, Tower strengthening, Foundation strengthening & Quality audits."
+            ),
+
+            array(
+                "project" => "OTC",
+                "logo" => "",
+                "title" => "Oman Tower Company",
+                "period" => "2018",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Helios Tower Oman'],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Colocation, Greenfield, Maintenance, Roof Top, Emergency power Restore/ MOD Marine Project."
+            ),
+            array(
+                "project" => "ROP",
+                "logo" => "",
+                "title" => "ROP Etesalat Project",
+                "period" => "2018",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Establishment of ROP tower, infrasturcture and complete project'],
+                    ["title" => 'Country', 'value' => 'Dahirah, Musandam, Burami'],
+                ],
+                "data" => ""
+            ),
+            array(
+                "project" => "Omantel",
+                "logo" => "",
+                "title" => "RAN & MW survey",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Omantel - Ericsson'],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "TSSR (Technical Site Survey Report) survey for new and existing towers for Ericsson client all over Oman"
+            ),
+            array(
+                "project" => "Omantel",
+                "logo" => "",
+                "title" => "RAN installation",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Omantel - Ericsson'],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Implementation and integration of 2G,WCDMA,LTE and 5G networks all over Oman"
+            ),
+            array(
+                "project" => "Omantel",
+                "logo" => "",
+                "title" => "MW installation,Upgradation",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Omantel - Ericsson'],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Implementation,integration Upgradation of all new and existing MW technologies including Traditional links, E-band, Xpic and SD links"
+            ),
+            array(
+                "project" => "Omantel",
+                "logo" => "",
+                "title" => "IBS installation",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Omantel - Ericsson'],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "IBS installation of telecom equipments in Ministy buildings, malls, hospitals, hotels etc."
+            ),
+            array(
+                "project" => "Ericsson",
+                "logo" => "",
+                "title" => "RF & LOS survey",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "TSSR & LOS survey for new and existing towers for both Ericsson client all over Oman."
+            ),
+        ]
+        ?>
+
     <!--====== HEADER START ======-->
     <div id="sotcox-loadding" class="sotcox-loader">
         <div class="sotcox-spinner">
@@ -48,28 +143,6 @@
             <div class="bounce3"></div>
         </div>
     </div>
-
-    <?php
-
-
-$projects =
-  [
-    array(
-      "project" => "MOTROLLA",
-      "logo" => "images/resource/Motrola.png",
-      "title" => "Drive test services",
-      "period" => "2021 - ONGOING",
-      "descriptionLeft" => [
-        ["title " => 'Country', 'value' => ' Oman'],
-        ["title" => 'Account', 'value' => ' Motorolla'],
-        ["title" => 'Operator', 'value' => ' ROP']
-      ],
-      "data" => "Structured cabling and installation of Workstations"
-    ),];
-
-
-
-    ?>
     <!--====== HEADER END ======-->
 
     <!--====== HEADER START ======-->
@@ -89,7 +162,7 @@ $projects =
                                         <li><a class="title-font" href="./index.html">Home</a></li>
                                         <li><a class="title-font" href="./about.html">About Us</a></li>
                                         <li><a class="title-font" href="./services.html">Services</a></li>
-                                        <li class="active"><a class="title-font" href="./project.html">Project</a></li>
+                                        <li class="active"><a class="title-font" href="./projects.php">Project</a></li>
                                         <li><a class="title-font" href="./product.html">Product</a></li>
                                         <li><a class="title-font" href="./ProjectGallery.html">Gallery</a></li>
                                         <li><a class="title-font" href="./career.html">Career</a></li>
@@ -147,7 +220,7 @@ $projects =
             <div class="tab-pane fade" id="menu-tab-2" role="tabpanel" aria-labelledby="menu-tab-2-tab">
                 <div class="side-info">
                     <div class="side-info__content mb-35">
-                        <h4 class="mb-10 title-font title">About us</h4>
+                        <h4 class="title-font title mb-10">About us</h4>
                         <p class="text-justify"> WE NETWORK LLC posses specialized expertise in designing and
                             implementing networks
                             spanning 2G, 3G, 4G, and 5G technologies, ensuring optimal value for our customers. The
@@ -158,7 +231,7 @@ $projects =
                             to both Telecom service providers and Original Equipment Manufacturers. We excel in
                             delivering a holistic range of services to enhance network performance and meet the
                             evolving demands of the industry.</p>
-                        <a class="mt-20 sotcox-btn sotcox-btn__small title-font" href="./contact.html">Contact us
+                        <a class="sotcox-btn sotcox-btn__small mt-20 title-font" href="./contact.html">Contact us
                             <span></span></a>
                     </div>
                     <div class="contact__info--wrapper mt-15">
@@ -206,7 +279,7 @@ $projects =
         </div>
         <div class="side-info">
             <div class="side-info__content mb-35">
-                <h4 class="mb-10 title-font title">About us</h4>
+                <h4 class="title-font title mb-10">About us</h4>
                 <p class="text-justify"> WE NETWORK LLC posses specialized expertise in designing and implementing
                     networks
                     spanning 2G, 3G, 4G, and 5G technologies, ensuring optimal value for our customers. The
@@ -217,7 +290,7 @@ $projects =
                     to both Telecom service providers and Original Equipment Manufacturers. We excel in
                     delivering a holistic range of services to enhance network performance and meet the
                     evolving demands of the industry. </p>
-                <a class="mt-20 sotcox-btn sotcox-btn__small title-font" href="contact.html">Contact us
+                <a class="sotcox-btn sotcox-btn__small title-font mt-20" href="contact.html">Contact us
                     <span></span></a>
             </div>
             <div class="contact__info--wrapper mt-15">
@@ -270,35 +343,35 @@ $projects =
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="border-0 content-left-wrapper">
+                    <div class="content-left-wrapper border-0">
                         <ul class="sotcox-project-filter justify-content-left list-unstyled d-flex align-items-center">
                             <li class="title-font active show" data-filter=".pro-1">MOTROLLA </li>
-                            <li class="title-font" data-filter=".pro-2">ERICSSON </li>
-                            <li class="title-font" data-filter=".pro-3">OMANTEL </li>
-                            <li class="title-font" data-filter=".pro-4">OTC </li>
+                            <li class="title-font" data-filter=".Ericsson">ERICSSON </li>
+                            <li class="title-font" data-filter=".Omantel">OMANTEL </li>
+                            <li class="title-font" data-filter=".OTC">OTC </li>
                             <li class="title-font" data-filter=".pro-5">PDO </li>
                             <li class="title-font" data-filter=".pro-6">OOREDOO </li>
                             <li class="title-font" data-filter=".pro-7">HUAWEI </li>
                             <li class="title-font" data-filter=".pro-8">NSN </li>
                             <li class="title-font" data-filter=".pro-9">SIEMENS </li>
-                            <li class="title-font" data-filter=".pro-10">ROP / RAFO </li>
+                            <li class="title-font" data-filter=".ROP">ROP / RAFO </li>
                             <li class="title-font" data-filter=".pro-11">FIBER OPTICS </li>
                             <li class="title-font" data-filter=".pro-12">ICT </li>
-                            <li class="title-font" data-filter=".pro-13">HELIOS </li>
+                            <li class="title-font" data-filter=".Helios">HELIOS </li>
                             <li class="title-font" data-filter=".pro-14">MEP</li>
                             <li class="title-font" data-filter=".pro-15">VODAFONE </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-12">
-                    <div class="mt-10 sotcox-project-wrapper">
+                    <div class="sotcox-project-wrapper mt-10">
                         <div class="row sotcox-project-grid project">
 
                             <!-- Motrolla Start -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    class="sotcox-project-item sotcox-service-item  d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -312,7 +385,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-6 col-sm-12 ">
-                                                    <ul class="text-left list-unstyled border-right">
+                                                    <ul class="list-unstyled text-left border-right">
                                                         <li>Country: Oman </li>
                                                         <li>Account: Motorola </li>
                                                         <li>Operator: ROP </li>
@@ -327,9 +400,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -343,7 +416,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled ">
+                                                    <ul class="list-unstyled text-left ">
                                                         <li>Country: Oman </li>
                                                         <li>Account: Motorola </li>
                                                         <li>Operator: ROP and SQU </li>
@@ -357,9 +430,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -373,7 +446,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Country: Oman </li>
                                                         <li>Account: Motorola </li>
                                                         <li>Operator: ROP </li>
@@ -387,9 +460,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item d-flex align-items-center">
+                                    class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -403,7 +476,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-8 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Country: Oman </li>
                                                         <li>Account: Motorola </li>
                                                         <li>Operator: ROP </li>
@@ -417,9 +490,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item d-flex align-items-center">
+                                    class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -434,7 +507,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled d-flex">
+                                                    <ul class="list-unstyled text-left d-flex">
                                                         <li>Operator/Consultant:<br>
                                                             MOTOROLA/ ROP</li>
                                                     </ul>
@@ -447,9 +520,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item d-flex align-items-center">
+                                    class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -465,7 +538,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>
                                                             MOTOROLA/ ROP</li>
                                                     </ul>
@@ -479,9 +552,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item d-flex align-items-center">
+                                    class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -495,7 +568,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>
                                                             MOTOROLA/ ROP</li>
                                                     </ul>
@@ -509,9 +582,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-1 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item d-flex align-items-center">
+                                    class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Motrola.png" alt="">
                                     </div>
@@ -525,7 +598,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>
                                                             MOTOROLA/ ROP</li>
                                                     </ul>
@@ -543,9 +616,9 @@ $projects =
 
                             <!-- Motrolla End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
@@ -559,7 +632,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Country: Oman </li>
                                                         <li>Main Contractor: Ericsson </li>
                                                         <li>End Customer: Omantel </li>
@@ -575,9 +648,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
@@ -591,7 +664,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Main Contractor: Ericsson </li>
                                                         <li>End Customer: Omantel </li>
                                                     </ul>
@@ -609,10 +682,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -625,7 +698,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Country: Oman </li>
                                                         <li>Main Contractor: Ericsson </li>
                                                         <li>End Customer: Omantel & Ooredoo </li>
@@ -641,10 +714,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -658,7 +731,7 @@ $projects =
 
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel </li>
@@ -674,9 +747,9 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
@@ -691,7 +764,7 @@ $projects =
 
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericssion</li>
                                                         <li> End Customer: Omantel & Ooredoo </li>
@@ -707,10 +780,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -724,7 +797,7 @@ $projects =
 
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel </li>
@@ -738,10 +811,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -755,7 +828,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Middle East </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel/Ooredoo </li>
@@ -769,10 +842,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -785,7 +858,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Ooredoo </li>
@@ -799,10 +872,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -815,7 +888,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel </li>
@@ -829,10 +902,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -845,7 +918,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Ooredoo </li>
@@ -859,10 +932,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -875,7 +948,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Ooredoo </li>
@@ -889,10 +962,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -905,7 +978,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Ooredoo </li>
@@ -919,10 +992,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -935,7 +1008,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Ooredoo </li>
@@ -949,10 +1022,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -965,7 +1038,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Ooredoo </li>
@@ -979,10 +1052,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -995,7 +1068,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Ooredoo </li>
@@ -1009,10 +1082,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1025,7 +1098,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country:Oman </li>
                                                         <li> Main Contractor:Ericsson </li>
                                                         <li> End Customer:Ooredoo </li>
@@ -1039,10 +1112,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1055,7 +1128,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel </li>
@@ -1069,10 +1142,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1085,7 +1158,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel </li>
@@ -1099,10 +1172,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1115,7 +1188,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Nawras </li>
@@ -1129,10 +1202,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1145,7 +1218,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Nawras </li>
@@ -1159,10 +1232,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1176,7 +1249,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel </li>
@@ -1190,10 +1263,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1208,7 +1281,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Nawras </li>
@@ -1222,10 +1295,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1238,7 +1311,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: Omantel </li>
@@ -1255,10 +1328,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1270,7 +1343,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Main Contractor: Ericsson </li>
                                                         <li> End Customer: MOD </li>
@@ -1295,23 +1368,23 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <!-- <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
-                                                <div class="col-lg-10 col-md-12 col-sm-12">
+                                                <div class="col-lg-10 col-md-12  col-sm-12">
                                                     <h4 class="title-font">Supply of Manpower</h4>
                                                     <p>From 2012</p>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-8 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant:<br>Omantel</li>
                                                     </ul>
                                                 </div>
@@ -1323,23 +1396,23 @@ $projects =
                                     </div>
                                 </div>
                             </div> -->
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
-                                                <div class="col-lg-10 col-md-12 col-sm-12">
+                                                <div class="col-lg-10 col-md-12  col-sm-12">
                                                     <h4 class="title-font">RF & LOS survey</h4>
                                                     <p>Omantel-From 2012, Vodafone-From 2020</p>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-8 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>Oman, Omantel & Vodafone</li>
                                                     </ul>
                                                 </div>
@@ -1352,23 +1425,23 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
-                                                <div class="col-lg-10 col-md-12 col-sm-12">
+                                                <div class="col-lg-10 col-md-12  col-sm-12">
                                                     <h4 class="title-font">RAN Instatallation</h4>
                                                     <p>Omantel-From 2012, Vodafone-From 2020</p>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-8 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>Oman, Omantel & Vodafone</li>
                                                     </ul>
                                                 </div>
@@ -1381,23 +1454,23 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
-                                                <div class="col-lg-10 col-md-12 col-sm-12">
+                                                <div class="col-lg-10 col-md-12  col-sm-12">
                                                     <h4 class="title-font">MW installation</h4>
                                                     <p>Omantel-From 2012, Vodafone-From 2020</p>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-8 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>Oman, Omantel & Vodafone</li>
                                                     </ul>
                                                 </div>
@@ -1409,23 +1482,23 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
-                                                <div class="col-lg-10 col-md-12 col-sm-12">
+                                                <div class="col-lg-10 col-md-12  col-sm-12">
                                                     <h4 class="title-font">DRIVE TEST</h4>
                                                     <p>From 2012</p>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-8 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>Omantel</li>
                                                     </ul>
                                                 </div>
@@ -1437,23 +1510,23 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-2 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Ericsson.png" alt="">
                                     </div>
                                     <div class="row">
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
-                                                <div class="col-lg-10 col-md-12 col-sm-12">
+                                                <div class="col-lg-10 col-md-12  col-sm-12">
                                                     <h4 class="title-font">IBS installation</h4>
                                                     <p>From 2020</p>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-8 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consultant:<br>Vodafone</li>
                                                     </ul>
                                                 </div>
@@ -1467,10 +1540,10 @@ $projects =
                             </div>
                             <!-- Ericsson End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1484,7 +1557,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Omantel </li>
@@ -1504,10 +1577,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1521,7 +1594,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Omantel </li>
@@ -1544,10 +1617,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1560,7 +1633,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Omantel </li>
@@ -1579,10 +1652,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1595,7 +1668,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Omantel </li>
@@ -1614,10 +1687,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1630,7 +1703,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Omantel </li>
@@ -1649,10 +1722,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1668,7 +1741,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: OTP </li>
                                                         <li> Operator: OTP </li>
@@ -1683,10 +1756,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1699,7 +1772,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Ericsson </li>
@@ -1713,10 +1786,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1729,7 +1802,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Omantel </li>
@@ -1743,10 +1816,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-3 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Omantel.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1759,7 +1832,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Omantel </li>
                                                         <li> Operator: Omantel </li>
@@ -1776,10 +1849,10 @@ $projects =
 
                             <!-- Omantel End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1793,13 +1866,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: OTC </li>
                                                         <li> Operator: OTC </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Maintenance of Telecom Towers</p>
                                                 </div>
                                             </div>
@@ -1807,10 +1880,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1824,13 +1897,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Oman Towers </li>
                                                         <li> Operator: Oman Towers </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Tower Construction and Power connection </p>
                                                 </div>
                                             </div>
@@ -1838,10 +1911,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1855,12 +1928,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             VODFONE / OOREDOO/ OMANTEL </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Special towers camouflage structures/ Moziaque towers TOWERS </p>
                                                 </div>
                                             </div>
@@ -1868,10 +1941,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1885,12 +1958,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             VODFONE / OOREDOO/ OMANTEL </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Special towers camouflage structures/ Moziaque towers TOWERS </p>
                                                 </div>
                                             </div>
@@ -1898,10 +1971,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1915,12 +1988,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             VODFONE / OOREDOO/ OMANTEL </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Existing tower maintenance</p>
                                                 </div>
                                             </div>
@@ -1928,10 +2001,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1945,12 +2018,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             VODFONE / OOREDOO/ OMANTEL </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Introduce new technology</p>
                                                 </div>
                                             </div>
@@ -1958,10 +2031,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -1975,12 +2048,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             OTC/ VODFONE/ OORDOO/ OMANTEL</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and delivery of towers/ Monopole structures and camouflage
                                                     </p>
                                                 </div>
@@ -1989,10 +2062,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-4 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="p-3 thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  p-3 d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/OTC.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2007,12 +2080,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             MOD / OTC</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Monopole structures and camouflage</p>
                                                 </div>
                                             </div>
@@ -2023,10 +2096,10 @@ $projects =
 
                             <!-- OTC End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-5 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/PDO.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2039,13 +2112,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: PDO </li>
                                                         <li> Operator: PDO </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Installation, Blowing and termination of FOC </p>
                                                 </div>
                                             </div>
@@ -2053,10 +2126,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-5 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/PDO.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2069,13 +2142,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: PDO </li>
                                                         <li> Operator: PDO </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply of EXFO OLTS Test Unit for PDO </p>
                                                 </div>
                                             </div>
@@ -2083,10 +2156,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-5 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/PDO.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2100,12 +2173,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             PDO</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/ TELECOMMUNICATION/ ICT</p>
                                                 </div>
                                             </div>
@@ -2113,10 +2186,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-5 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/PDO.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2129,7 +2202,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             PDO</li>
                                                     </ul>
@@ -2142,10 +2215,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-5 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/PDO.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2158,7 +2231,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             PDO</li>
                                                     </ul>
@@ -2171,10 +2244,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-5 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/PDO.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2187,7 +2260,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             PDO</li>
                                                     </ul>
@@ -2200,10 +2273,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-5 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/PDO.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2218,7 +2291,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             PDO</li>
                                                     </ul>
@@ -2234,10 +2307,10 @@ $projects =
 
                             <!-- PDO End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2250,11 +2323,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant:<br> Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply of OSP and FOC for Ooredoo projects</p>
                                                 </div>
                                             </div>
@@ -2262,10 +2335,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2278,11 +2351,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant:<br> Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Microwave Linking at different business sites for ooredoo
                                                     </p>
                                                 </div>
@@ -2291,10 +2364,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2307,11 +2380,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant:<br> Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>MW Link, LOS transmission works, LTE FDD works for the
                                                         new
                                                         ooredoo sites.</p>
@@ -2321,10 +2394,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2337,7 +2410,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-9 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant: Ooredoo </li>
                                                     </ul>
                                                 </div>
@@ -2349,10 +2422,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2365,7 +2438,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-8 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant: Ooredoo </li>
                                                     </ul>
                                                 </div>
@@ -2377,10 +2450,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2393,11 +2466,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant:<br> Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Implementation and integration of different site.</p>
                                                 </div>
                                             </div>
@@ -2405,10 +2478,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2422,11 +2495,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant:<br> Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Implementation and integration of different MW links.</p>
                                                 </div>
                                             </div>
@@ -2434,10 +2507,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2450,7 +2523,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant: Ooredoo </li>
                                                     </ul>
                                                 </div>
@@ -2462,10 +2535,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-6 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Oredoo.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2479,11 +2552,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consultant: Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Broad band link connectivity.</p>
                                                 </div>
                                             </div>
@@ -2494,10 +2567,10 @@ $projects =
 
                             <!-- Oredoo End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-7 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-7 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Huawei.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2510,13 +2583,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Huawei </li>
                                                         <li> Operator: Huawei </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Building of new telecom sites,
                                                         Construction
                                                         of
@@ -2533,10 +2606,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-7 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-7 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Huawei.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2549,13 +2622,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Huawei </li>
                                                         <li> Operator: Huawei </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Network Planning, RF Planning & Design,
                                                         RF
                                                         Optimisation, Network Support
@@ -2566,10 +2639,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-7 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-7 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" class="image" src="./assets/img/clients/Huawei.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2582,13 +2655,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Huawei </li>
                                                         <li> Operator: Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Civil TK Project</p>
                                                 </div>
                                             </div>
@@ -2596,10 +2669,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-7 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-7 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Huawei.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2612,13 +2685,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Huawei </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Network Deployment</p>
                                                 </div>
                                             </div>
@@ -2626,10 +2699,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-7 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-7 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Huawei.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2642,13 +2715,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Huawei </li>
                                                         <li> Operator: Nawras </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Professional Services</p>
                                                 </div>
                                             </div>
@@ -2656,10 +2729,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-7 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-7 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Huawei.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2672,13 +2745,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Huawei </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Network Deployment</p>
                                                 </div>
                                             </div>
@@ -2686,10 +2759,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-7 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-7 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Huawei.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2702,13 +2775,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Middle East </li>
                                                         <li> Account: Huawei </li>
                                                         <li> Operator: Ooredoo </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings RNO/RNP</p>
                                                 </div>
                                             </div>
@@ -2719,10 +2792,10 @@ $projects =
 
                             <!-- Huawei End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-8 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-8 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/NSN.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2735,13 +2808,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: NSN </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Professional Services </p>
                                                 </div>
                                             </div>
@@ -2749,10 +2822,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-8 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-8 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/NSN.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2765,13 +2838,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: NSN </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Professional Services</p>
                                                 </div>
                                             </div>
@@ -2779,10 +2852,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-8 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-8 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/NSN.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2795,13 +2868,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: NSN </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Network Deployment</p>
                                                 </div>
                                             </div>
@@ -2809,10 +2882,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-8 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-8 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/NSN.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2825,13 +2898,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: NSN </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Network Deployment</p>
                                                 </div>
                                             </div>
@@ -2842,10 +2915,10 @@ $projects =
 
                             <!-- NSN End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-9 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-9 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Simens.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2858,13 +2931,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Siemens </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Network Deployment </p>
                                                 </div>
                                             </div>
@@ -2872,10 +2945,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-9 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-9 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Simens.png" alt="">
                                     </div>
                                     <div class="row">
@@ -2888,13 +2961,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Siemens </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Service Offerings Network Deployment </p>
                                                 </div>
                                             </div>
@@ -2905,10 +2978,10 @@ $projects =
 
                             <!-- Siemens End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-10 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 ROP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2922,13 +2995,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: ROP </li>
                                                         <li> Operator: ROP </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply, Installation ,testing and commissioning of Video
                                                         wall
                                                         system</p>
@@ -2938,10 +3011,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-10 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 ROP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2954,13 +3027,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: RAFO </li>
                                                         <li> Operator: RAFO </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Installation and Configuration of Huawei Conferencing
                                                         System
                                                     </p>
@@ -2970,10 +3043,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-10 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 ROP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -2987,12 +3060,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             RAFO</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3000,10 +3073,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-10 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 ROP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -3017,12 +3090,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             RAFO</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3030,10 +3103,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-10 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 ROP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -3047,12 +3120,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             RAFO</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3060,10 +3133,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-10 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 ROP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -3077,12 +3150,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             ROP</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3090,10 +3163,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-10 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 ROP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -3106,7 +3179,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             ROP</li>
                                                     </ul>
@@ -3121,10 +3194,10 @@ $projects =
                             </div>
                             <!-- Rop/Rofa End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3137,13 +3210,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: AOTC </li>
                                                         <li> Operator: Oman LNG </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Civil Work and FOC installation</p>
                                                 </div>
                                             </div>
@@ -3151,10 +3224,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3167,13 +3240,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: L & T </li>
                                                         <li> Operator: PDO </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Fiber Optics OPGW Cable Splicing testing and
                                                         Commissioning
                                                     </p>
@@ -3183,10 +3256,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3199,13 +3272,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: GPS </li>
                                                         <li> Operator: PDO </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Fiber Optics Splicing, Testing and Commissioning </p>
                                                 </div>
                                             </div>
@@ -3213,10 +3286,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3229,13 +3302,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: STS </li>
                                                         <li> Operator: Duqm Refinery and Petrofac </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Tower Erection</p>
                                                 </div>
                                             </div>
@@ -3243,10 +3316,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3259,13 +3332,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Ubhar Capital </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Installation , Configuration, Testing and AMC of Avaya IP
                                                         Phones
                                                     </p>
@@ -3275,10 +3348,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3291,13 +3364,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: OHI Telecom </li>
                                                         <li> Operator: Oman Broadband </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>FTTH Construction in Sohar for Oman Broadband </p>
                                                 </div>
                                             </div>
@@ -3305,10 +3378,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3321,13 +3394,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: OHI Telecom </li>
                                                         <li> Operator: ARA Drilling </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>FOC Installation in PDO Sites </p>
                                                 </div>
                                             </div>
@@ -3335,10 +3408,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3351,13 +3424,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Al Jassar Telecom LLC </li>
                                                         <li> Operator: Oman Broadband </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>FTTH Construction in Ibri Al Murtafa Al Dhahira Region
                                                         for
                                                         Oman
@@ -3368,10 +3441,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-11 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-11 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Fiber-Optics.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3384,13 +3457,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Al Jassar Telecom LLC </li>
                                                         <li> Operator: Oman Broadband </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>FTTH Construction in Nizwa Farq-Al Dhakelyah Region for
                                                         Oman
                                                         Broadband </p>
@@ -3403,10 +3476,10 @@ $projects =
 
                             <!-- Fiber Optics End-->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3420,13 +3493,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Advance Engineering LLC </li>
                                                         <li> Operator: Advance Engineering LLC </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply, installation, Testing and Commissioning of Huawei
                                                         IP
                                                         Telephony
@@ -3437,10 +3510,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3454,13 +3527,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Al Tasnim </li>
                                                         <li> Operator: Royal Court Affairs (RCA) </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply, installation, Testing and Commissioning of ASCOM
                                                         nurse
                                                         call
@@ -3472,10 +3545,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3488,13 +3561,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Royal Crown Hotel </li>
                                                         <li> Operator: Royal Crown Hotel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Installation, Configuration and testing of Complete ELV
                                                         Systems
                                                     </p>
@@ -3504,10 +3577,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3520,13 +3593,13 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Country: Oman </li>
                                                         <li> Account: Ubhar Capital </li>
                                                         <li> Operator: Omantel </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Installation , Configuration, Testing and AMC of Avaya IP
                                                         Phones
                                                     </p>
@@ -3536,10 +3609,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3554,12 +3627,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Ministry of Health-Bhawan Projects & Telecom</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3567,10 +3640,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3584,12 +3657,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Ministry of Education-Huawei</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3597,10 +3670,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3614,12 +3687,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Smart Digital Technologies</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3627,10 +3700,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3643,12 +3716,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Ministry of Manpower:Ibra college</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3656,10 +3729,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3672,12 +3745,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Ministry of Education:Meridian IT</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3685,10 +3758,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3702,12 +3775,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Yas Communication-Majid Water Cooler & Airconditioning</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3715,10 +3788,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3732,12 +3805,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Ministry of Education:Meridian IT</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3745,10 +3818,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3762,12 +3835,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             RCA-2-Al Tasnim</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/ TELECOMMUNICATION/ ICT</p>
                                                 </div>
                                             </div>
@@ -3775,10 +3848,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3792,12 +3865,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Omantel-Ubhar Capital</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/ TELECOMMUNICATION/ ICT</p>
                                                 </div>
                                             </div>
@@ -3805,10 +3878,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3822,12 +3895,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             ROP</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/ TELECOMMUNICATION/ ICT</p>
                                                 </div>
                                             </div>
@@ -3835,10 +3908,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3853,12 +3926,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Royal Crown Hotel-Advance Engineering LLC</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3866,10 +3939,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3883,12 +3956,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Advance Engineering LLC</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3897,10 +3970,10 @@ $projects =
                                 </div>
                             </div>
 
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3913,12 +3986,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Oman Broadband-Al Jasser Telecom</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3926,10 +3999,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3942,12 +4015,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Oman Broadband-OHI Telecom</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -3955,10 +4028,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -3971,7 +4044,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             TCIL</li>
                                                     </ul>
@@ -3984,10 +4057,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4000,12 +4073,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Oman Broadband-OHI Telecom</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -4013,10 +4086,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4030,12 +4103,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             Oman Fiber Optic Co. SAOC.</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -4043,10 +4116,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4059,7 +4132,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>
                                                             PDO/Galfar</li>
                                                     </ul>
@@ -4072,10 +4145,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4088,12 +4161,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             MOTOROLA</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>IT/TELECOMMUNICATION/ICT</p>
                                                 </div>
                                             </div>
@@ -4101,10 +4174,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4117,7 +4190,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             GPS</li>
                                                     </ul>
@@ -4130,10 +4203,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4146,7 +4219,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             MOTOROLA</li>
                                                     </ul>
@@ -4159,10 +4232,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4176,7 +4249,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             MOTOROLA</li>
                                                     </ul>
@@ -4189,10 +4262,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4205,7 +4278,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             AOTC</li>
                                                     </ul>
@@ -4218,10 +4291,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4234,7 +4307,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             AOTC</li>
                                                     </ul>
@@ -4247,10 +4320,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4263,7 +4336,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             STS-GPS</li>
                                                     </ul>
@@ -4276,10 +4349,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4292,7 +4365,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             GPS</li>
                                                     </ul>
@@ -4305,10 +4378,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4321,7 +4394,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             OTC</li>
                                                     </ul>
@@ -4334,10 +4407,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-12 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-12 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/ICT.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4350,7 +4423,7 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:
                                                             GALFAR</li>
                                                     </ul>
@@ -4368,10 +4441,10 @@ $projects =
                             <!-- ICT End  -->
 
 
-                            <div class="grid col-xl-6 col-lg-6 pro-13 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/Helios.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4385,12 +4458,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             Omantel</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Construction of tower foundation, pedestals and boundary walls
                                                         with HTO standard.</p>
                                                 </div>
@@ -4399,10 +4472,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-13 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/Helios.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4415,12 +4488,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consulant:<br>
                                                             Vodafone, Omantel, Oredoo</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Fabrication of new bracing and leg members based on structural
                                                         analysis report. Replacing existing members by new members</p>
                                                 </div>
@@ -4429,10 +4502,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-13 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/Helios.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4445,12 +4518,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Operator/Consulant:<br>
                                                             Omantel, Oredoo</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Conduct detailed TSSR survey, fabrication and replacing of new
                                                         members
                                                     </p>
@@ -4460,10 +4533,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-13 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/Helios.png" alt="">
                                     </div>
                                     <div class="row">
@@ -4477,12 +4550,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             Omantel</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Conduct detailed TSSR survey, fabrication and replacing of new
                                                         members. protect the tower from collapse condition.
                                                     </p>
@@ -4495,10 +4568,10 @@ $projects =
 
                             <!-- Helios End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4512,11 +4585,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>GOLDEN GROUP/ABDULLAH MUKADAM</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation.</p>
                                                 </div>
                                             </div>
@@ -4524,10 +4597,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4541,11 +4614,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>OMAN RESIDENCE/SPACE DESIGNERS INTL LLC</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation</p>
                                                 </div>
                                             </div>
@@ -4553,10 +4626,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4570,11 +4643,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>IDS / AL NADA ENGINEERING CONSUTANCY</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation</p>
                                                 </div>
                                             </div>
@@ -4582,10 +4655,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4599,12 +4672,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>AL NADA INDUSTRIES / LEEYANA ENGINEERING
                                                             CONSULTANCY</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4613,10 +4686,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4630,12 +4703,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>DANA HOUSE /SPACE DESIGNERS INTL LLC
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4644,10 +4717,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4661,11 +4734,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>AL AMAL /SPACE DESIGNERS INTL LLC</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4674,10 +4747,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4691,11 +4764,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>MD.NAZIR / AL SHAMIL ENGINEERING CONSULTANCY</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4704,10 +4777,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4721,11 +4794,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>Synergy</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4734,10 +4807,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4751,12 +4824,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>SUHIL AL BADAR CONSTRUCTION /ABDULLAH MUKADAM
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4765,10 +4838,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4782,11 +4855,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>A1 FENCE / AL SHAMIL ENDINEERING CONSULTANCY</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation</p>
                                                 </div>
                                             </div>
@@ -4794,10 +4867,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4811,12 +4884,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>AL NADA INDUSTRIES / LEEYANA ENGINEERING
                                                             CONSULTANCY</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4825,10 +4898,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4841,12 +4914,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>AL RAHA INTL LLC / AL SHAMIL ENGINEERING
                                                             CONSULTANCY</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation
                                                     </p>
                                                 </div>
@@ -4855,10 +4928,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-14 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
                                     </div>
                                     <div class="row">
@@ -4873,11 +4946,11 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li>Client:<br>AL MAJIDI / SPACE DESIGNERS INTL LLC</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of all MEP material and installation</p>
                                                 </div>
                                             </div>
@@ -4887,10 +4960,10 @@ $projects =
                             </div>
                             <!-- Electrical / MEP End -->
 
-                            <div class="grid col-xl-6 col-lg-6 pro-15 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-15 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image"
                                             src="./assets/img/clients/client logo/Vodafone-Logo-Vector.jpg" alt="">
                                     </div>
@@ -4904,12 +4977,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             Vodafone</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Supply and installation of ACDB's, Cable ladders & Antenna/MW
                                                         brackets, Power connection
                                                     </p>
@@ -4919,10 +4992,10 @@ $projects =
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid col-xl-6 col-lg-6 pro-15 mt-30 project-card">
+                            <div class="col-xl-6 col-lg-6 pro-15 mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
-                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
-                                    <div class="thumb d-none d-lg-block">
+                                    class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
+                                    <div class="thumb  d-none d-lg-block">
                                         <img class="image"
                                             src="./assets/img/clients/client logo/Vodafone-Logo-Vector.jpg" alt="">
                                     </div>
@@ -4936,12 +5009,12 @@ $projects =
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <ul class="text-left list-unstyled">
+                                                    <ul class="list-unstyled text-left">
                                                         <li> Operator/Consulant:<br>
                                                             Vodafone</li>
                                                     </ul>
                                                 </div>
-                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
                                                     <p>Assembling and installation of tower structure. Installation and
                                                         commissioning of Shelter, Rectifier and ACDB's.</p>
                                                 </div>
@@ -4950,6 +5023,134 @@ $projects =
                                     </div>
                                 </div>
                             </div>
+                            
+                            <?php
+                            
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             foreach ($projects as $project) {
+                                // print_r($project);
+                                ?>
+                                <!-- <div class="col-xs-12 col-sm-6 col-md-6 grid-item <?php echo $project['project']; ?>">
+                                  <div class="gallery-block_one-inner gallery-height">
+                                    <div class="gallery-block_one-overlay">
+                                    </div>
+                                    <div style="display: flex;" class="pt-2 ps-2">
+                                      <div class="w-25">
+                                        <img src="<?php echo $project['logo']; ?>" alt="Avatar">
+                                      </div>
+                                      <div class="w-75">
+                                        <h5 class="gallery-block_one-heading">
+                                          <?php echo $project['title']; ?>
+                                        </h5>
+                                        <h5 class="gallery-block_one-heading">
+                                          <?php echo $project['period']; ?>
+                                        </h5>
+                                      </div>
+                                    </div>
+                                    <div class="p-3 m-0 text-justify d-lg-flex gallery-block_one-heading fw-normal fs-6 split-in-left">
+                                      <ul class="w-lg-50 w-100">
+                                        <?php foreach ($project['description'] as $description) {
+                                          echo "<li><b>" . $description['title'] . '</b>';
+                                          echo $description['title'] ? " : " : '';
+                                          echo $description['value'] . "</li>";
+                                        } ?>
+                                      </ul>
+                                      <ul class="w-lg-50 w-100">
+                                        <?php echo "<li>" . $project['data']; ?>
+                                      </ul>
+                                    </div>
+                                  </div>
+                  
+                                </div> -->
+                                <div class="col-xl-6 col-lg-6 <?php echo $project['project']; ?>  mt-30 grid project-card">
+                                <div style="    border: 1px solid #7af3c5 !important;"
+                                    class="sotcox-project-item sotcox-service-item  d-flex border align-items-center">
+                                    <div class="thumb d-none d-lg-block">
+                                        <img class="image" src="<?php echo $project['logo']; ?>" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 ps-4" style="height: 100%;">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-6 col-sm-12">
+                                                    <h4 class="title-font"> <?php echo $project['title']; ?> </h4>
+                                                    <?php echo $project['period']; ?>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                                                    <ul class="list-unstyled text-left border-right">
+                                                        <?php foreach ($project['description'] as $description) {
+                                                            echo "<li><b>" . $description['title'] . '</b>';
+                                                            echo $description['title'] ? " : " : '';
+                                                            echo $description['value'] . "</li>";
+                                                        } ?>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-8 col-md-6 col-sm-12">
+                                                    <?php echo "<p>" . $project['data'] . "</p>"; ?>
+                                                    <!-- <p>Structured cabling and installation of Workstations</p> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                              <?php } ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
                         </div>
                     </div>
                 </div>
@@ -4966,7 +5167,7 @@ $projects =
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-6 sotcox-custom-col mt-75">
                         <div class="widget">
-                            <h3 class="mt-5 widget-title title-font text-light">We Network LLC</h3>
+                            <h3 class="widget-title title-font text-light mt-5">We Network LLC</h3>
                             <div class="about-widget">
 
                                 <p class="text-light">
@@ -5019,12 +5220,12 @@ $projects =
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 sotcox-custom-col mt-75">
                         <div class="widget">
-                            <h3 class="mt-5 widget-title text-light title-font">Information</h3>
+                            <h3 class="widget-title text-light title-font mt-5">Information</h3>
                             <ul>
                                 <li><a class="text-light" href="./index.html">Home</a></li>
                                 <li><a class="text-light" href="./about.html">About Us</a></li>
                                 <li><a class="text-light" href="./services.html">Services</a></li>
-                                <li><a class="text-light" href="./project.html">Project</a></li>
+                                <li><a class="text-light" href="./projects.php">Project</a></li>
                                 <li><a class="text-light" href="./product.html">Product</a></li>
                                 <li><a class="text-light" href="./ProjectGallery.html">Gallery</a></li>
                                 <li><a class="text-light" href="./career.html">Career</a></li>
@@ -5043,9 +5244,10 @@ $projects =
                 <div class="row">
                     <div class="col-md-8">
                         <p class="text-light">
-                            Copyright &copy; <span class="text-light" id="copyright-date"></span> <a href="./index.html">WE Network LLC</a>, All
+                            Copyright &copy; <span class="text-light" id="copyright-date"></span> <a
+                                href="./index.html">WE Network LLC</a>, All
                             Rights Reserved. Designed by <a href="https://izhtech.com/">Izh-Tech</a>.
-                          </p>
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <div class="sotcox-backtotop">
