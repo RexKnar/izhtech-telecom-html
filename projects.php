@@ -45,7 +45,7 @@
         [
             array(
                 "project" => "Helios",
-                "logo" => "",
+                "logo" => "./assets/img/clients/Logo/Helios.png",
                 "title" => "Helios Tower projects",
                 "period" => "Nov, 2022",
                 "description" => [
@@ -54,10 +54,20 @@
                 ],
                 "data" => "Colocation, Greenfield, Tower maintenance, Tower strengthening, Foundation strengthening & Quality audits."
             ),
-
+            array(
+                "project" => "Helios",
+                "logo" => "./assets/img/clients/Logo/Helios.png",
+                "title" => "",
+                "period" => "Jan, 2024",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Helios'],
+                    ["title" => 'Country', 'value' => 'Rumeiz'],
+                ],
+                "data" => "Supply of DCRP and Std metering panels and 3 phase energy meters"
+            ),
             array(
                 "project" => "OTC",
-                "logo" => "",
+                "logo" => "./assets/img/clients/OTC.png",
                 "title" => "Oman Tower Company",
                 "period" => "2018",
                 "description" => [
@@ -68,7 +78,7 @@
             ),
             array(
                 "project" => "ROP",
-                "logo" => "",
+                "logo" => "./assets/img/clients/ROP-ROFA.jpg",
                 "title" => "ROP Etesalat Project",
                 "period" => "2018",
                 "description" => [
@@ -79,7 +89,7 @@
             ),
             array(
                 "project" => "Omantel",
-                "logo" => "",
+                "logo" => "./assets/img/clients/Omantel.png",
                 "title" => "RAN & MW survey",
                 "period" => "2014",
                 "description" => [
@@ -90,7 +100,7 @@
             ),
             array(
                 "project" => "Omantel",
-                "logo" => "",
+                "logo" => "./assets/img/clients/Omantel.png",
                 "title" => "RAN installation",
                 "period" => "2014",
                 "description" => [
@@ -101,7 +111,7 @@
             ),
             array(
                 "project" => "Omantel",
-                "logo" => "",
+                "logo" => "./assets/img/clients/Omantel.png",
                 "title" => "MW installation,Upgradation",
                 "period" => "2014",
                 "description" => [
@@ -112,7 +122,7 @@
             ),
             array(
                 "project" => "Omantel",
-                "logo" => "",
+                "logo" => "./assets/img/clients/Omantel.png",
                 "title" => "IBS installation",
                 "period" => "2014",
                 "description" => [
@@ -123,15 +133,181 @@
             ),
             array(
                 "project" => "Ericsson",
-                "logo" => "",
+                "logo" => "./assets/img/clients/Ericsson.png",
                 "title" => "RF & LOS survey",
-                "period" => "2014",
+                "period" => "2020",
                 "description" => [
                     ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
                     ["title" => 'Country', 'value' => 'Sultanate of Oman'],
                 ],
                 "data" => "TSSR & LOS survey for new and existing towers for both Ericsson client all over Oman."
             ),
+            array(
+                "project" => "Ericsson",
+                "logo" => "./assets/img/clients/Ericsson.png",
+                "title" => "RAN installation",
+                "period" => "2020",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => " Implementation and integration of 2g,3g,4g and 5g networks all over Oman"
+            ),
+            array(
+                "project" => "Ericsson",
+                "logo" => "./assets/img/clients/Ericsson.png",
+                "title" => "MW installation",
+                "period" => "2020",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Implement and integration of all diffent MW technologies including normal links, E-band, Xpic, SD of all sizes. "
+            ),
+            array(
+                "project" => "Ericsson",
+                "logo" => "./assets/img/clients/Ericsson.png",
+                "title" => "IBS installation",
+                "period" => "2021",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "IBS installation of telecom equipments in ministy buildings, malls, hospitals, hotels etc."
+            ),
+            array(
+                "project" => "Ooredoo",
+                "logo" => "./assets/img/clients/Oredoo.png",
+                "title" => "Line of Sight",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Line of site survey "
+            ),
+            array(
+                "project" => "Ooredoo",
+                "logo" => "./assets/img/clients/Oredoo.png",
+                "title" => "MW implementation for BC/2G/3G/4G/5G",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "MW link implementation for different project "
+            ),
+            array(
+                "project" => "Ooredoo",
+                "logo" => "./assets/img/clients/Oredoo.png",
+                "title" => "OSP service",
+                "period" => "2014",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Fiber specialist out soured to ooredoo"
+            ),
+            array(
+                "project" => "Ooredoo",
+                "logo" => "./assets/img/clients/Oredoo.png",
+                "title" => "Drive test project",
+                "period" => "2016",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Ericsson-Vodafone '],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "MW link implementation for different project "
+            ),
+            array(
+                "project" => "PDO",
+                "logo" => "./assets/img/clients/PDO.png",
+                "title" => "FOC & CCTV integration project",
+                "period" => "Dec, 2023",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'PDO'],
+                    ["title" => 'Country', 'value' => 'Dhulaima'],
+                ],
+                "data" => "Connecting existing RMS to newly constructed RMS through FOC network. New RMS station entirely secured with newly installed CCTV metwork and integareted FOC system"
+            ),
+            array(
+                "project" => "PDO",
+                "logo" => "./assets/img/clients/PDO.png",
+                "title" => "FAAL FOC project",
+                "period" => "Jan, 2024",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'PDO'],
+                    ["title" => 'Country', 'value' => 'Faal'],
+                ],
+                "data" => "Supply and installation of FOC integration at FAAL Lekwair station"
+            ),
+            array(
+                "project" => "PDO",
+                "logo" => "./assets/img/clients/PDO.png",
+                "title" => "FAAL FOC project",
+                "period" => "Feb, 2024",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'PDO'],
+                    ["title" => 'Country', 'value' => 'Amal'],
+                ],
+                "data" => "Supply and installation of FOC integration at FAAL Lekwair station"
+            ),
+            array(
+                "project" => "RAFO",
+                "logo" => "./assets/img/clients/ROP-ROFA.jpg",
+                "title" => "RAFO Mashira Tower",
+                "period" => "Jan, 2023, Com - Dec, 2023",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'RAFO'],
+                    ["title" => 'Country', 'value' => 'Mashira'],
+                ],
+                "data" => "Supply, installation and Renovation of existing RAFO communication tower"
+            ),
+            array(
+                "project" => "Motorola",
+                "logo" => "./assets/img/clients/Motrola.png",
+                "title" => "VHF Gateway",
+                "period" => "Jan, 2023, Com - Feb, 2024",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Motorola'],
+                    ["title" => 'Country', 'value' => 'Central office, Qurum'],
+                ],
+                "data" => "Radio Communication Network for ROP"
+            ),
+            array(
+                "project" => "Motorola",
+                "logo" => "./assets/img/clients/Motrola.png",
+                "title" => "Desktop Installation",
+                "period" => "2022",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Motorola'],
+                    ["title" => 'Country', 'value' => 'Sultanate of Oman'],
+                ],
+                "data" => "Security Monitoring desktop and accessories installation "
+            ),
+            array(
+                "project" => "MEP",
+                "logo" => "./assets/img/clients/Logo/MEP.jpg",
+                "title" => "Desktop Installation",
+                "period" => "Dec, 2023",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Amlak Real Estate'],
+                    ["title" => 'Country', 'value' => 'Bousher'],
+                ],
+                "data" => "Security Monitoring desktop and accessories installation "
+            ),
+            array(
+                "project" => "MEP",
+                "logo" => "./assets/img/clients/Logo/MEP.jpg",
+                "title" => "",
+                "period" => "Jan, 2024",
+                "description" => [
+                    ["title" => 'Client', 'value' => 'Al Fardan'],
+                    ["title" => 'Country', 'value' => 'Ghala'],
+                ],
+                "data" => "Supply and Installation of 18 nos of 3 phase tested digital AMR meters"
+            )
+
         ]
         ?>
 
@@ -345,20 +521,20 @@
                 <div class="col-xl-12">
                     <div class="content-left-wrapper border-0">
                         <ul class="sotcox-project-filter justify-content-left list-unstyled d-flex align-items-center">
-                            <li class="title-font active show" data-filter=".pro-1">MOTROLLA </li>
-                            <li class="title-font" data-filter=".pro-2">ERICSSON </li>
-                            <li class="title-font" data-filter=".pro-3">OMANTEL </li>
-                            <li class="title-font" data-filter=".pro-4">OTC </li>
-                            <li class="title-font" data-filter=".pro-5">PDO </li>
-                            <li class="title-font" data-filter=".pro-6">OOREDOO </li>
+                            <li class="title-font active show" data-filter=".Motorola">MOTROLLA </li>
+                            <li class="title-font" data-filter="Ericsson">ERICSSON </li>
+                            <li class="title-font" data-filter="Omantel">OMANTEL </li>
+                            <li class="title-font" data-filter="OTC">OTC </li>
+                            <li class="title-font" data-filter="PDO">PDO </li>
+                            <li class="title-font" data-filter="Ooredoo">OOREDOO </li>
                             <li class="title-font" data-filter=".pro-7">HUAWEI </li>
                             <li class="title-font" data-filter=".pro-8">NSN </li>
                             <li class="title-font" data-filter=".pro-9">SIEMENS </li>
-                            <li class="title-font" data-filter=".pro-10">ROP / RAFO </li>
+                            <li class="title-font" data-filter="RAFO">RAFO / RAFO </li>
                             <li class="title-font" data-filter=".pro-11">FIBER OPTICS </li>
                             <li class="title-font" data-filter=".pro-12">ICT </li>
-                            <li class="title-font" data-filter=".pro-13">HELIOS </li>
-                            <li class="title-font" data-filter=".pro-14">MEP</li>
+                            <li class="title-font" data-filter=".Helios">HELIOS </li>
+                            <li class="title-font" data-filter="MEP">MEP</li>
                             <li class="title-font" data-filter=".pro-15">VODAFONE </li>
                         </ul>
                     </div>
@@ -369,7 +545,7 @@
 
                             <!-- Motrolla Start -->
 
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item  d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -400,7 +576,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -430,7 +606,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -460,7 +636,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -490,7 +666,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -520,7 +696,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -552,7 +728,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -582,7 +758,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-1 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Motorola mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -616,7 +792,7 @@
 
                             <!-- Motrolla End -->
 
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -648,7 +824,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -682,7 +858,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -714,7 +890,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -747,7 +923,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb d-none d-lg-block">
@@ -780,7 +956,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -811,7 +987,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -842,7 +1018,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -872,7 +1048,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -902,7 +1078,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -932,7 +1108,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -962,7 +1138,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -992,7 +1168,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1022,7 +1198,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1052,7 +1228,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1082,7 +1258,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1112,7 +1288,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1142,7 +1318,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1172,7 +1348,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1202,7 +1378,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1232,7 +1408,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1263,7 +1439,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1295,7 +1471,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1328,7 +1504,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1368,7 +1544,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <!-- <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1396,7 +1572,7 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1425,7 +1601,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1454,7 +1630,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1482,7 +1658,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1510,7 +1686,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-2 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ericsson mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1540,7 +1716,7 @@
                             </div>
                             <!-- Ericsson End -->
 
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1577,7 +1753,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1617,7 +1793,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1652,7 +1828,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1687,7 +1863,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1722,7 +1898,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1756,7 +1932,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1786,7 +1962,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1816,7 +1992,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-3 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Omantel mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -1849,7 +2025,7 @@
 
                             <!-- Omantel End -->
 
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -1880,7 +2056,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -1911,7 +2087,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -1941,7 +2117,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -1971,7 +2147,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -2001,7 +2177,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -2031,7 +2207,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -2062,7 +2238,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-4 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 OTC mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  p-3 d-none d-lg-block">
@@ -2096,7 +2272,7 @@
 
                             <!-- OTC End -->
 
-                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 PDO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2126,7 +2302,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 PDO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2156,7 +2332,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 PDO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2186,7 +2362,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 PDO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2215,7 +2391,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 PDO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2244,7 +2420,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 PDO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2273,7 +2449,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-5 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 PDO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2307,7 +2483,7 @@
 
                             <!-- PDO End -->
 
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2335,7 +2511,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2364,7 +2540,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2394,7 +2570,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2422,7 +2598,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2450,7 +2626,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2478,7 +2654,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2507,7 +2683,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2535,7 +2711,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-6 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Ooredoo mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -2978,11 +3154,11 @@
 
                             <!-- Siemens End -->
 
-                            <div class="col-xl-6 col-lg-6 pro-10 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 RAFO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
-                                        <img class="image" src="./assets/img/clients/ROP-ROFA.jpg" alt="">
+                                        <img class="image" src="./assets/img/clients/RAFO-ROFA.jpg" alt="">
                                     </div>
                                     <div class="row">
                                         <div class="col-12 ps-4" style="height: 100%;">
@@ -3011,7 +3187,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-10 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 RAFO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -3043,7 +3219,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-10 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 RAFO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -3073,7 +3249,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-10 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 RAFO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -3103,7 +3279,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-10 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 RAFO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -3133,7 +3309,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-10 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 RAFO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -3163,7 +3339,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-10 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 RAFO mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4441,7 +4617,7 @@
                             <!-- ICT End  -->
 
 
-                            <div class="col-xl-6 col-lg-6 pro-13 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4472,7 +4648,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-13 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4502,7 +4678,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-13 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4533,7 +4709,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-13 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 Helios mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4568,7 +4744,7 @@
 
                             <!-- Helios End -->
 
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4597,7 +4773,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4626,7 +4802,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4655,7 +4831,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4686,7 +4862,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4717,7 +4893,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4747,7 +4923,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4777,7 +4953,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4807,7 +4983,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4838,7 +5014,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4867,7 +5043,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4898,7 +5074,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
@@ -4928,7 +5104,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 pro-14 mt-30 grid project-card">
+                            <div class="col-xl-6 col-lg-6 MEP mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="sotcox-project-item sotcox-service-item d-flex border align-items-center">
                                     <div class="thumb  d-none d-lg-block">
