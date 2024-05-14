@@ -66,7 +66,7 @@
                                     <li><a class="title-font" href="./about.html">About Us</a></li>
                                     <li><a class="title-font" href="./services.html">Services</a></li>
                                     <li><a class="title-font" href="./awards.html">Awards</a></li>
-                                    <li><a class="title-font" href="./project.html">Project</a></li>
+                                    <li><a class="title-font" href="./projects.php">Project</a></li>
                                     <li><a class="title-font" href="./product.html">Product</a></li>
                                     <li><a class="title-font" href="./ProjectGallery.html">Gallery</a></li>
                                     <li><a class="title-font" href="./career.html">Career</a></li>
@@ -124,7 +124,7 @@
       <div class="tab-pane fade" id="menu-tab-2" role="tabpanel" aria-labelledby="menu-tab-2-tab">
         <div class="side-info">
           <div class="side-info__content mb-35">
-            <h4 class="title-font title mb-10">About us</h4>
+            <h4 class="mb-10 title-font title">About us</h4>
             <p class="text-justify"> WE NETWORK LLC posses specialized expertise in designing and implementing networks
               spanning 2G, 3G, 4G, and 5G technologies, ensuring optimal value for our customers. The
               deployment of advanced wireless networks demands comprehensive insight into network
@@ -134,7 +134,7 @@
               to both Telecom service providers and Original Equipment Manufacturers. We excel in
               delivering a holistic range of services to enhance network performance and meet the
               evolving demands of the industry.</p>
-            <a class="sotcox-btn sotcox-btn__small mt-20 title-font" href="./contact.html">Contact us
+            <a class="mt-20 sotcox-btn sotcox-btn__small title-font" href="./contact.html">Contact us
               <span></span></a>
           </div>
           <div class="contact__info--wrapper mt-15">
@@ -182,7 +182,7 @@
     </div>
     <div class="side-info">
       <div class="side-info__content mb-35">
-        <h4 class="title-font title mb-10">About us</h4>
+        <h4 class="mb-10 title-font title">About us</h4>
         <p class="text-justify"> WE NETWORK LLC posses specialized expertise in designing and implementing networks
           spanning 2G, 3G, 4G, and 5G technologies, ensuring optimal value for our customers. The
           deployment of advanced wireless networks demands comprehensive insight into network
@@ -192,7 +192,7 @@
           to both Telecom service providers and Original Equipment Manufacturers. We excel in
           delivering a holistic range of services to enhance network performance and meet the
           evolving demands of the industry. </p>
-        <a class="sotcox-btn sotcox-btn__small title-font mt-20" href="contact.html">Contact us
+        <a class="mt-20 sotcox-btn sotcox-btn__small title-font" href="contact.html">Contact us
           <span></span></a>
       </div>
       <div class="contact__info--wrapper mt-15">
@@ -266,8 +266,8 @@
         </div>
         <div class="col-xl-6">
           <div class="sotcox-getquote-form-wrapper">
-          <p class="ajax-response <?php echo isset($_GET['error']) ? 'text-danger' : 'text-success' ?> "> <?php echo isset($_GET['error']) ? 'OOPS! Something went wrong, Please try again later':'Thanks for contacting us! Our team will contact yu soon.'   ?></p>
-            
+          <!-- <p class="ajax-response <?php echo isset($_GET['error']) ? 'text-danger' : 'text-success' ?> "> <?php echo isset($_GET['error']) ? 'OOPS! Something went wrong, Please try again later':'Thanks for contacting us! Our team will contact yu soon.'   ?></p> -->
+          <p class="ajax-response"></p>
             <form action="contact-us.php" method="POST" id="contact-form">
               <div class="sotcox-input-field mt-30">
                 <label class="title-font" for="name">Name *</label>
@@ -289,7 +289,8 @@
                 <label class="title-font" for="message">Message *</label>
                 <textarea name="message" id="message" placeholder="Message"></textarea>
               </div>
-              <button type="submit" class="sotcox-btn sotcox-btn__round title-font mt-20">submit now
+              <input type="submit" >
+              <button type="submit" class="mt-20 sotcox-btn sotcox-btn__round title-font">submit now
                 <span></span></button>
               </form>
           </div>
@@ -352,10 +353,10 @@
       
       <div class="row">
         <div class="col-xl-4 col-lg-6 col-md-6 mt-30 justify-content-center">
-          <div class="contact-address pt-3 border-0">
+          <div class="pt-3 border-0 contact-address">
             <div class="row">
               <div class="col-lg-12">
-                <div class="sotcox-section-heading text-center pt-30">
+                <div class="text-center sotcox-section-heading pt-30">
                   <h2 class="title-font heading">Geographic Presence</h2>
                 </div>
               </div>
@@ -365,7 +366,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 mt-30 justify-content-center">
           <div class="sotcox-service-item contact-address pt-30">
             <div class="row">
-              <div class="col-lg-2 my-auto">
+              <div class="my-auto col-lg-2">
                 <img height="70px" width="70px" src="./assets/img/logo/Dummy-logo-1.png" alt="">
               </div>
               <div class="col-lg-10">
@@ -380,7 +381,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
           <div class="sotcox-service-item contact-address pt-30">
             <div class="row">
-              <div class="col-lg-2 my-auto">
+              <div class="my-auto col-lg-2">
                 <img height="70px" width="70px" src="./assets/img/logo/logo.png" alt="">
               </div>
               <div class="col-lg-10">
@@ -396,7 +397,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
           <div class="sotcox-service-item contact-address pt-30">
             <div class="row">
-              <div class="col-lg-2 my-auto">
+              <div class="my-auto col-lg-2">
                 <img height="70px" width="70px" src="./assets/img/logo/Dummy-logo-2.png" alt="">
               </div>
               <div class="col-lg-10">
@@ -413,7 +414,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 mt-30 justify-content-center">
           <div class="sotcox-service-item contact-address pt-30">
             <div class="row">
-              <div class="col-lg-2 my-auto">
+              <div class="my-auto col-lg-2">
                 <img height="70px" width="70px" src="./assets/img/logo/MRM-LOGO.png" alt="">
               </div>
               <div class="col-lg-10">
@@ -428,7 +429,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 mt-30 justify-content-center">
           <div class="sotcox-service-item contact-address pt-30">
             <div class="row">
-              <div class="col-lg-2 my-auto">
+              <div class="my-auto col-lg-2">
                 <img height="70px" width="70px" src="./assets/img/logo/Badminton_Logo-05_1.png" alt="">
               </div>
               <div class="col-lg-10">
@@ -454,7 +455,7 @@
         <div class="row">
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sotcox-custom-col mt-75">
             <div class="widget">
-              <h3 class="widget-title title-font text-light mt-5">We Network LLC</h3>
+              <h3 class="mt-5 widget-title title-font text-light">We Network LLC</h3>
               <div class="about-widget">
                
                 <p class="text-light">
@@ -469,7 +470,7 @@
 
                 </p>
                 <p class="text-light"><i class="far fa-envelope"></i> info@wenetworkllc.com</p>
-                <div class="sotcox-social-links mt-40">
+                <div class="mt-40 sotcox-social-links">
                   <a class="text-light" href="https://m.facebook.com/profile.php/?id=100079002285250"><i
                       class="fab fa-facebook-f"></i></a>
                   <a class="text-light" href="https://twitter.com/Wenetworksllc"><i class="fab fa-twitter"></i></a>
@@ -482,7 +483,7 @@
           </div>
           <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 sotcox-custom-col mt-75">
             <div class="widget">
-              <h3 class="widget-title title-font text-light mt-5">Services</h3>
+              <h3 class="mt-5 widget-title title-font text-light">Services</h3>
               <ul>
                 <li><a class="text-light telecom-service" href="telecomTower.html">Telecom Network and Infrastructure
                     Solutions</a></li>
@@ -498,13 +499,13 @@
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 sotcox-custom-col mt-75">
             <div class="widget">
-              <h3 class="widget-title text-light title-font mt-5">Information</h3>
+              <h3 class="mt-5 widget-title text-light title-font">Information</h3>
               <ul>
                 <li><a class="text-light" href="./index.html">Home</a></li>
                 <li><a class="text-light" href="./about.html">About Us</a></li>
                 <li><a class="text-light" href="./services.html">Services</a></li>
                 <li><a class="text-light" href="./awards.html">Awards</a></li>
-                <li><a class="text-light" href="./project.html">Project</a></li>
+                <li><a class="text-light" href="./projects.php">Project</a></li>
                 <li><a class="text-light" href="./product.html">Product</a></li>
                 <li><a class="text-light" href="./ProjectGallery.html">Gallery</a></li>
                 <li><a class="text-light" href="./career.html">Career</a></li>

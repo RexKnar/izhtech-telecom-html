@@ -7,7 +7,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Include database configuration
-include('shared/db/dbConfig.php');
+// include('shared/db/dbConfig.php');
 
 // Function to sanitize user input
 function sanitizeInput($input) {
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize and validate inputs
     $name = sanitizeInput($_POST['name']);
     $email = sanitizeInput($_POST['email']);
-    $company = sanitizeInput($_POST['companys']);
+    $company = sanitizeInput($_POST['company']);
     $message = sanitizeInput($_POST['message']);
     $phoneNumber = sanitizeInput($_POST['phoneNumber']);
 
@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 465;
 
         $mail->setFrom($email, $name);
-        $mail->addAddress('info@izhtech.com', 'We Network');
+        $mail->addAddress('hr@wenetworkllc.com', 'We Network');
 
         $mail->isHTML(true);
         $mail->Subject = 'Contact Form Submission';
@@ -62,11 +62,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Redirect to success page or do further processing
-    header('location: contact.php?error=success');
+    // header('location: contact.php?error=success');
     exit();
 }
 
 // If the form is not submitted, redirect to contact.php
-header('location: contact.php');
+// header('location: contact.php');
 exit();
 ?>
