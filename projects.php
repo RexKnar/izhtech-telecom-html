@@ -326,7 +326,7 @@
     <header class="sotcox-header pt-30 pb-30 uk-sticky" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
         <div class="container-fluid ">
             <div class="row">
-                <div class="col-xl-10 col-lg-4 col-sm-6 col-7 align-self-center">
+                <div class="col-xl-11 col-lg-4 col-sm-6 col-7 align-self-center">
                     <div class="sotcox-logo-menu-wrapper">
                         <a href="./index.html" class="sotcox-logo">
                             <img src="assets/img/logo/logo.png" alt="LOGO">
@@ -338,6 +338,7 @@
                                         <li><a class="title-font" href="./index.html">Home</a></li>
                                         <li><a class="title-font" href="./about.html">About Us</a></li>
                                         <li><a class="title-font" href="./services.html">Services</a></li>
+                                        <li><a class="title-font" href="./awards.html">Awards</a></li>
                                         <li class="active"><a class="title-font" href="./projects.php">Project</a></li>
                                         <li><a class="title-font" href="./product.html">Product</a></li>
                                         <li><a class="title-font" href="./ProjectGallery.html">Gallery</a></li>
@@ -349,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-8 col-sm-6 col-5 align-self-center">
+                <div class="col-xl-1 col-lg-8 col-sm-6 col-5 align-self-center">
                     <div class="right-element">
                         <ul class="list-unstyled d-flex align-items-center">
                             <li class="sideinfo-trigger" data-sideinfo-trigger="">
@@ -5401,6 +5402,7 @@
                                 <li><a class="text-light" href="./index.html">Home</a></li>
                                 <li><a class="text-light" href="./about.html">About Us</a></li>
                                 <li><a class="text-light" href="./services.html">Services</a></li>
+                                <li><a class="text-light" href="./awards.html">Awards</a></li>
                                 <li><a class="text-light" href="./projects.php">Project</a></li>
                                 <li><a class="text-light" href="./product.html">Product</a></li>
                                 <li><a class="text-light" href="./ProjectGallery.html">Gallery</a></li>
