@@ -2486,6 +2486,11 @@ h6 {
   }
 }
 
+@media (max-width: 1400px){
+  .sotcox-main-menu ul li:not(:last-child) {
+    margin-right: 41px;
+  }
+}
 .sotcox-main-menu ul li a {
   display: block;
   text-decoration: none;
