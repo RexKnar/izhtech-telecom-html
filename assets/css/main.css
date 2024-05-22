@@ -2316,7 +2316,7 @@ h6 {
 }
 @media (max-width: 1199px) {
   .sotcox-header {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
   }
 }
 
@@ -2349,13 +2349,13 @@ h6 {
 .sotcox-header.uk-active {
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
   background: #ffffff;
-  padding: 12px 0px;
+  /* padding: 12px 0px; */
   z-index: 10;
 }
 
 @media (max-width: 1199px) {
   .sotcox-header.uk-active {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
   }
 }
 
