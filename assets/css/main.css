@@ -2357,6 +2357,9 @@ h6 {
   .sotcox-header.uk-active {
     /* padding: 20px 0px; */
   }
+  .sotcox-header .right-element{
+    justify-content: flex-end;
+  }
 }
 
 .sotcox-header.uk-active .sotcox-menu-wrapper {
