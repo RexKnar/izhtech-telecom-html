@@ -2307,6 +2307,7 @@ h6 {
 @media (max-width: 991px) {
   .sotcox-logo-menu-wrapper .sotcox-logo {
     margin-right: 0px;
+    max-width: 110px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px){
@@ -2497,7 +2498,7 @@ h6 {
 .sotcox-main-menu ul li a {
   display: block;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   color: #1B2E59;
   padding: 10px 0px;
   font-weight: 700;

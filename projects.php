@@ -57,7 +57,7 @@
             array(
                 "project" => "Helios",
                 "logo" => "./assets/img/clients/Logo/Helios.png",
-                "title" => "",
+                "title" => "Helios Project",
                 "period" => "Jan, 2024",
                 "description" => [
                     ["title" => 'Client', 'value' => 'Helios'],
@@ -299,7 +299,7 @@
             array(
                 "project" => "MEP",
                 "logo" => "./assets/img/clients/Logo/MEP.jpg",
-                "title" => "",
+                "title" => "MEP works",
                 "period" => "Jan, 2024",
                 "description" => [
                     ["title" => 'Client', 'value' => 'Al Fardan'],
@@ -307,6 +307,7 @@
                 ],
                 "data" => "Supply and Installation of 18 nos of 3 phase tested digital AMR meters"
             )
+            
 
         ]
         ?>
@@ -323,7 +324,7 @@
 
     <!--====== HEADER START ======-->
     <!--====== HEADER START ======-->
-    <header class="sotcox-header pt-30 pb-30 uk-sticky" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
+    <header class="sotcox-header uk-sticky" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
         <div class="container-fluid ">
             <div class="row">
                 <div class="col-xl-11 col-lg-4 col-sm-6 col-7 align-self-center">
@@ -338,7 +339,7 @@
                                         <li><a class="title-font" href="./index.html">Home</a></li>
                                         <li><a class="title-font" href="./about.html">About Us</a></li>
                                         <li><a class="title-font" href="./services.html">Services</a></li>
-                                        <li><a class="title-font" href="./awards.html">Awards</a></li>
+                                        <li><a class="title-font" href="./awards.html">Appreciation</a></li>
                                         <li class="active"><a class="title-font" href="./projects.php">Project</a></li>
                                         <li><a class="title-font" href="./product.html">Product</a></li>
                                         <li><a class="title-font" href="./ProjectGallery.html">Gallery</a></li>
@@ -422,7 +423,7 @@
                             </li>
                             <li>
                                 <span><i class="fas fa-phone"></i></span>
-                                <p>+1255-568-6523</p>
+                                <p>+968 24170030</p>
                             </li>
                             <li>
                                 <span><i class="fas fa-envelope-open-text"></i></span>
@@ -481,7 +482,7 @@
                     </li>
                     <li>
                         <span><i class="fas fa-phone"></i></span>
-                        <p>+1255-568-6523</p>
+                        <p>+968 24170030</p>
                     </li>
                     <li>
                         <span><i class="fas fa-envelope-open-text"></i></span>
@@ -531,7 +532,7 @@
                             <li class="title-font" data-filter=".pro-7">HUAWEI </li>
                             <li class="title-font" data-filter=".pro-8">NSN </li>
                             <li class="title-font" data-filter=".pro-9">SIEMENS </li>
-                            <li class="title-font" data-filter=".RAFO">RPO / RAFO </li>
+                            <li class="title-font" data-filter=".RAFO">ROP / RAFO </li>
                             <li class="title-font" data-filter=".pro-11">FIBER OPTICS </li>
                             <li class="title-font" data-filter=".pro-12">ICT </li>
                             <li class="title-font" data-filter=".Helios">HELIOS </li>
@@ -4755,7 +4756,65 @@
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <h4 class="title-font">MEP Works at Propossed COM. residential
+                                                    <h4 class="title-font">MEP work proposed Commercial & Residential Building</h4>
+                                                    <p>Dec 2023 - ongoing</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <ul class="text-left list-unstyled">
+                                                        <li>Client:<br>Nebras Al Baraka Ent. (AMLAK)</li>
+                                                        <li>Country:<br>Bousher, Muscat</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                    <p>G+7+PH Floors.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid col-xl-6 col-lg-6 MEP mt-30 project-card">
+                                <div style="    border: 1px solid #7af3c5 !important;"
+                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    <div class="thumb d-none d-lg-block">
+                                        <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 ps-4" style="height: 100%;">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <h4 class="title-font">MEP work proposed Commercial & Residential Building</h4>
+                                                    <p>May 2024 - ongoing</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <ul class="text-left list-unstyled">
+                                                        <li>Client:<br>M/S. Build Engineering & Architect Modelling LLC (BEAM)</li>
+                                                        <li>Country:<br>Bousher, Muscat</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="text-left col-lg-6 col-md-6 col-sm-12">
+                                                    <p>L+GF+2 Offices + 4 Apartments Floors.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid col-xl-6 col-lg-6 MEP mt-30 project-card">
+                                <div style="    border: 1px solid #7af3c5 !important;"
+                                    class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
+                                    <div class="thumb d-none d-lg-block">
+                                        <img class="image" src="./assets/img/clients/Logo/MEP.jpg" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 ps-4" style="height: 100%;">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <h4 class="title-font">MEP Works at Propossed Com and residential
                                                         BLD at AL KHUWAIR</h4>
                                                     <p>2015 - 2016</p>
                                                 </div>
@@ -4784,7 +4843,7 @@
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <h4 class="title-font">MEP Works at Propossed COM Residential
+                                                    <h4 class="title-font">MEP Works at Propossed Com Residential
                                                         BLD at GHALA</h4>
                                                     <p>2017 - 2019</p>
                                                 </div>
@@ -4873,7 +4932,7 @@
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <h4 class="title-font">MEP Works at Propossed COM Residential
+                                                    <h4 class="title-font">MEP Works at Propossed Com and Residential
                                                         BLD at GHALA</h4>
                                                     <p>2017 - 2018</p>
                                                 </div>
@@ -4904,7 +4963,7 @@
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <h4 class="title-font">MEP Works at Propossed COM and Residential
+                                                    <h4 class="title-font">MEP Works at Propossed Com and Residential
                                                         BLD at AL KHUWAIR</h4>
                                                     <p>2018 - 2019</p>
                                                 </div>
@@ -4994,7 +5053,7 @@
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <h4 class="title-font">MEP Works at Propossed COM and Residential
+                                                    <h4 class="title-font">MEP Works at Propossed Com and Residential
                                                         BLD at AZAIBA</h4>
                                                     <p>2019 - 2020</p>
                                                 </div>
@@ -5054,7 +5113,7 @@
                                         <div class="col-12 ps-4" style="height: 100%;">
                                             <div class="row">
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <h4 class="title-font">MEP Works at Propossed COM and Residential
+                                                    <h4 class="title-font">MEP Works at Propossed Com and Residential
                                                         BLD at DUQM B+G+8</h4>
                                                     <p>2019 - 2021</p>
                                                 </div>
@@ -5202,60 +5261,11 @@
                             </div>
                             
                             <?php
-                            
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                              foreach ($projects as $project) {
                                 // print_r($project);
                                 ?>
-                                <!-- <div class="col-xs-12 col-sm-6 col-md-6 grid-item <?php echo $project['project']; ?>">
-                                  <div class="gallery-block_one-inner gallery-height">
-                                    <div class="gallery-block_one-overlay">
-                                    </div>
-                                    <div style="display: flex;" class="pt-2 ps-2">
-                                      <div class="w-25">
-                                        <img src="<?php echo $project['logo']; ?>" alt="Avatar">
-                                      </div>
-                                      <div class="w-75">
-                                        <h5 class="gallery-block_one-heading">
-                                          <?php echo $project['title']; ?>
-                                        </h5>
-                                        <h5 class="gallery-block_one-heading">
-                                          <?php echo $project['period']; ?>
-                                        </h5>
-                                      </div>
-                                    </div>
-                                    <div class="p-3 m-0 text-justify d-lg-flex gallery-block_one-heading fw-normal fs-6 split-in-left">
-                                      <ul class="w-lg-50 w-100">
-                                        <?php foreach ($project['description'] as $description) {
-                                          echo "<li><b>" . $description['title'] . '</b>';
-                                          echo $description['title'] ? " : " : '';
-                                          echo $description['value'] . "</li>";
-                                        } ?>
-                                      </ul>
-                                      <ul class="w-lg-50 w-100">
-                                        <?php echo "<li>" . $project['data']; ?>
-                                      </ul>
-                                    </div>
-                                  </div>
-                  
-                                </div> -->
+                                
                                 <div class="col-xl-6 col-lg-6 <?php echo $project['project']; ?>  mt-30 grid project-card">
                                 <div style="    border: 1px solid #7af3c5 !important;"
                                     class="border sotcox-project-item sotcox-service-item d-flex align-items-center">
@@ -5267,11 +5277,11 @@
                                             <div class="row">
                                                 <div class="col-lg-12 col-md-6 col-sm-12">
                                                     <h4 class="title-font"> <?php echo $project['title']; ?> </h4>
-                                                    <?php echo $project['period']; ?>
+                                                    <p><?php echo $project['period']; ?></p>
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 ">
                                                     <ul class="text-left list-unstyled border-right">
                                                         <?php foreach ($project['description'] as $description) {
                                                             echo "<li><b>" . $description['title'] . '</b>';
@@ -5281,53 +5291,15 @@
                                                     </ul>
                                                 </div>
 
-                                                <div class="col-lg-8 col-md-6 col-sm-12">
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <?php echo "<p>" . $project['data'] . "</p>"; ?>
-                                                    <!-- <p>Structured cabling and installation of Workstations</p> -->
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                              <?php } ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            
+                              <?php } ?>                            
                         </div>
                     </div>
                 </div>
@@ -5402,7 +5374,7 @@
                                 <li><a class="text-light" href="./index.html">Home</a></li>
                                 <li><a class="text-light" href="./about.html">About Us</a></li>
                                 <li><a class="text-light" href="./services.html">Services</a></li>
-                                <li><a class="text-light" href="./awards.html">Awards</a></li>
+                                <li><a class="text-light" href="./awards.html">Appreciation</a></li>
                                 <li><a class="text-light" href="./projects.php">Project</a></li>
                                 <li><a class="text-light" href="./product.html">Product</a></li>
                                 <li><a class="text-light" href="./ProjectGallery.html">Gallery</a></li>
